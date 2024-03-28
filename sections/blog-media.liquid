@@ -1,0 +1,84 @@
+<div class="section-spacing">
+  <div class="container container--lg">
+    <div class="section-stack">
+      <h1 class="SectionHeader__Heading Heading u-h1">
+        {{- section.settings.title -}}
+      </h1>
+      <blog-posts class="blog-post-list justify-center {% unless section.settings.stack_on_mobile %}blog-post-list--carousel scroll-area snap-x bleed md:unbleed{% endunless %}" {% if settings.stagger_blog_posts_apparition %}reveal-on-scroll="true"{% endif %}>
+        {%- capture sizes -%}(max-width: 699px) 95vw, (max-width: 1149px) calc(100vw / 2), calc((80rem - (5rem * ({{ section.settings.blog.articles_count | default: 3 | at_most: 3 }} - 1) / 3){%- endcapture -%}
+        {%- for block in section.blocks -%}
+            {%- render 'media-blog-item', block: block -%}
+        {%- endfor -%}
+      </blog-posts>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Media Blog page",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_meta",
+      "label": "Show Meta Info",
+      "info": "Meta info is the author, date and category.",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Media Blog Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "blogMedia",
+      "name": "Blog Media",
+      "settings": [
+        {
+          "type": "text",
+          "id": "category",
+          "label": "Category"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Featured Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
+        {
+          "type": "text",
+          "id": "author",
+          "label": "Author"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Date"
+        },
+		{
+          "type": "richtext",
+          "id": "excerpt",
+          "label": "Excerpt"
+        },
+		{
+          "type": "url",
+          "id": "readmore",
+          "label": "Read More Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Blog Media"
+    }
+  ]
+}
+{% endschema %}

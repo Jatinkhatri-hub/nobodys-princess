@@ -1,0 +1,32 @@
+<div class="blog-post-card group snap-center">
+  {%- if block.settings.image != blank -%}
+      <a href="{{ block.settings.readmore }}" class="overflow-hidden">
+        {{- block.settings.image| image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800,2000', class: 'blog-post-card__image w-full zoom-image group-hover:zoom' -}}
+      </a>
+  {%- endif -%}
+
+  <div class="blog-post-card__info">
+
+
+    {%- if section.settings.show_meta == true -%}
+    	{% assign meta = blank %}
+    	{% if block.settings.author!= blank %}
+    		{% assign meta = block.settings.author %}
+    		{% if block.settings.date!= blank %}
+    		{% assign meta = block.settings.author| append:" | " | append: block.settings.date%}
+			{% endif %}
+    	{% elsif block.settings.date!= blank %}
+    		{% assign meta = block.settings.date %}
+    	{% endif %}
+      <span class="ArticleItem__Category Heading u-h6 Text--subdued">{{ meta }} {% if meta != blank and block.settings.category!= blank %} | {% endif %}{{ block.settings.category }}</span>
+    {%- endif -%}
+      <h2>
+        <a href="{{ block.settings.readmore }}" class="blog-post-card__title {{ title_class | default: 'h4' }}">{{ block.settings.title }}</a>
+      </h2>
+      <p class="blog-post-card__excerpt">{{ block.settings.excerpt | strip_html | truncate: 150 }}</p>
+
+    {%- if show_read_more -%}
+      <a href="{{ block.settings.readmore | default: '#' }}" class="blog-post-card__read-more link">{{ 'blog.general.read_more' | t }}</a>
+    {%- endif -%}
+  </div>
+</div>
