@@ -3,7 +3,9 @@
     
     <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} ">
         <div class="container container--{{ section.settings.content_width }}">
-            {%- for block  in section.blocks -%} 
+         <div class="prose text-{{ section.settings.text_position }}">    
+        
+        {%- for block  in section.blocks -%} 
                {%- case block.type -%} 
                     {%- when 'heading' -%}
                         {%- if block.settings.text != blank -%}
