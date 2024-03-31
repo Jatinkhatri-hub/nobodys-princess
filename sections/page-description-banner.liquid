@@ -1,3 +1,38 @@
+{%-if sections.blocks.size > 0 -%}
+    {%-  assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient |  default: section.settings.color_scheme.settings.background |  md5-%}
+    
+    <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} ">
+        <div class="container container--{{ section.settings.content_width }}">
+            {%- for block  in section.blocks -%} 
+               {%- case block.type -%} 
+                    {%- when 'heading' -%}
+                        {%- if block.settings.text != blank -%}
+                            <p class="{{ block.settings.heading_tag }}" {{ block.shopify_attributes }} >{{ block.settings.text }}</p> 
+                        {%- endif -%}
+
+                    {%- when 'richtext' -%}
+                        {%- if block.settings.content != blank-%}
+                            <div {{ block.shopify_attributes }}>
+                                {{- block.settings.content -}}
+                            </div>
+                        {%- endif -%}
+               {%- endcase -%} 
+            {%- endfor -%}
+
+        </div>
+
+    </div>
+{%- endif -%}
+
+
+
+
+
+
+
+
+
+
 {% schema %} 
 {
     "name": "t:sections.page_description_banner.name",
@@ -109,7 +144,7 @@
             "settings": [
                 {
                     "type": "richtext",
-                    "id": "contnet",
+                    "id": "contentt",
                     "label": "t:global.text.content",
                     "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
                 }
@@ -125,7 +160,7 @@
                     "settings": {
                         "text": "heading",
                         "heading_tag": "h1"
-                    }
+                    }   
                 }
             ]
         }
