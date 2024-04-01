@@ -2,7 +2,8 @@
 
 <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container {%  unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
-        <div class="">
+        <div class="section-stack">
+            {}
 
         </div>
     </div>
