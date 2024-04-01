@@ -17,8 +17,48 @@
             {
                 "type": "checkbox",
                 "id": "seperate_section_with_border",
-                "label": "t:global.section.separate_section_with_border"
-                
+                "label": "t:global.section.separate_section_with_border",
+                "default": true
+            },
+            {
+                "type": "select",
+                "id": "container_size",
+                "label": "t:global.sizes.section_width",
+                "options": [
+                    {
+                        "value": "lg",
+                        "label": "t:global.sizes.large"
+                    },
+                    {
+                        "value": "xl",
+                        "label": "t:global.sizes.x_large"
+                    },
+                    {
+                        "value": "full",
+                        "label": "t:global.sizes.full_width"
+                    }
+                ],
+                "default": "lg"
+            },
+            {
+                "type": "header",
+                "content": "t:global.section.header_category"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "subheading",
+                "label": "t:global.text.subheading"
+            },
+            {
+                "type": "inline_richtext",
+                "id": "title",
+                "label": "t:global.text.heading",
+                "default": "Outfit creator"
+            },
+            {
+                "type": "richtext",
+                "id": "content",
+                "label": "t:global.text.content"
             }
         ]
     }
