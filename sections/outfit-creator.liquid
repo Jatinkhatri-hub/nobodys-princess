@@ -1,3 +1,6 @@
+<st
+
+
 {% assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 %}
 
 <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
@@ -9,6 +12,8 @@
         , content: section.settings.content
         , text_alignment: 'center' %}
     </div>
+
+
   </div>
 </div>
 
@@ -69,7 +74,7 @@
     ],
     "presets": [
       {
-        "name": "t:sections.outfit_creator.name"
+        "name": "Outfit Creator"
       }
     ]
   }
