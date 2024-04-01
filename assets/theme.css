@@ -6694,7 +6694,7 @@ tfoot td {
 }
 
 .outfit-creator__container {
-  grid-column: ;
+  grid-column: 2 / 12;
 }
 
 .border {
