@@ -1,1 +1,606 @@
-{"sections":{"4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b":{"type":"slideshow","blocks":{"template--16147330105534__4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b-1685601727fc9cc89e-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Nobodys-Princess-SnowPants-Desktop.webp","mobile_image":"shopify:\/\/shop_images\/Nobodys-Princess-SnowPants-Mobile.webp","subheading":"EXPERIENCE THE ULTIMATE FIT IN WOMEN'S SNOW GEAR.","title":"YOUR SNOW SEASON IS TOO SHORT TO BE UNCOMFORTABLE.","mobile_text_position":"place-self-end-center text-center","desktop_text_position":"sm:place-self-end-center sm:text-center","content_max_width":780,"button_1_text":"SHOP BOTTOMS","button_1_link":"shopify:\/\/collections\/bottoms","button_1_style":"solid","button_1_background":"#fa51a2","button_1_text_color":"#ffffff","button_2_text":"SHOP JACKETS","button_2_link":"shopify:\/\/collections\/jackets","button_2_style":"solid","button_2_background":"#ffffff","button_2_text_color":"#6a5c76","background":"","background_opacity":10,"text_color":"#ffffff","border_color":"","gradient_overlay":"linear-gradient(180deg, rgba(164, 160, 160, 0), rgba(164, 160, 160, 0) 2%, rgba(125, 132, 168, 0.62) 100%)"}}},"block_order":["template--16147330105534__4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b-1685601727fc9cc89e-0"],"settings":{"allow_transparent_header":true,"show_next_section_button":false,"media_size":"lg","autoplay":true,"autoplay_pause_on_video":false,"cycle_speed":6,"background":"#939393","controls_color":"#fa51a2"}},"featured_collections_iEF4TE":{"type":"featured-collections","blocks":{"collection_FijVE9":{"type":"collection","settings":{"collection":"snow-pants","products_count":8,"title":"PANTS","link_url":"shopify:\/\/collections\/snow-pants","link_text":"EXPORE ALL PANTS"}},"collection_tiRUXe":{"type":"collection","settings":{"collection":"jackets","products_count":12,"title":"JACKETS","link_url":"shopify:\/\/collections\/jackets","link_text":"EXPLORE ALL JACKETS"}},"collection_XkAHC4":{"type":"collection","settings":{"collection":"bibs","products_count":8,"title":"BIBS","link_url":"shopify:\/\/collections\/bibs","link_text":"EXPORE ALL BIBS"}}},"block_order":["collection_FijVE9","collection_tiRUXe","collection_XkAHC4"],"custom_css":[".h6 {font-size: var(--text-h5); font-weight: 800; line-height: 1.2; background: linear-gradient(120deg, #fa51a2, #e2ecf2); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}",".h2 {font-size: var(--text-h3); font-weight: 800; color: #6a5c76;}",".featured-collections-navigation > button:not(:only-child):after {color: #6a5c76; height: 3px;}",".featured-collections-navigation > [aria-current=\"false\"] {font-size: var(--text-h3); font-weight: 800; color: #8f8599;"],"settings":{"color_scheme":"scheme-ae9d2042-b5d2-43c6-869d-d25197171169","separate_section_with_border":false,"hide_product_information":false,"stack_products":false,"products_per_row_mobile":"2","products_per_row_desktop":5,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":"MORE OPTIONS. MORE COMFORT. MORE CONFIDENCE."}},"image_with_text_edDTmx":{"type":"image-with-text","blocks":{"subheading_MVqbNB":{"type":"subheading","settings":{"text":"EVERYONE DESERVES TO LOOK AND <strong>FEEL<\/strong> GOOD."}},"heading_RpyBkw":{"type":"heading","settings":{"text":"Women's snow & ski gear that actually fits, and, is shape, size, and height inclusive.","heading_tag":"h3"}},"richtext_AAyRBp":{"type":"richtext","settings":{"content":"<p>Our women's snow outerwear is designed to fit all our unique body types, from short and lean, to tall and curvy - and everything in between. We pride ourselves on offering technical snow apparel made specifically for women that looks good, fits well, and above all - is comfortable. We want you feeling your best while you're out on the snow - and not worrying about what you're wearing. <\/p>"}},"button_A9nUpk":{"type":"button","settings":{"style":"solid","text":"LEARN MORE","url":"shopify:\/\/pages\/womens-snow-pants","background":"","text_color":""}},"button_4cJLif":{"type":"button","settings":{"style":"outline","text":"FIND YOUR PERFECT FIT","url":"https:\/\/nobodys-princess.myshopify.com\/tools\/perfect-product-finder\/which-pant","background":"#6a5c76","text_color":"#ffffff"}}},"block_order":["subheading_MVqbNB","heading_RpyBkw","richtext_AAyRBp","button_A9nUpk","button_4cJLif"],"custom_css":[],"settings":{"color_scheme":"","separate_section_with_border":false,"image":"shopify:\/\/shop_images\/hanging-ski-clothing-nobodys-princess-desktop.webp","mobile_image":"shopify:\/\/shop_images\/hanging-ski-clothing-nobodys-princess-mobile.webp","reveal_on_scroll":true,"image_position":"start","content_width":"md","remove_vertical_spacing":true}},"8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b":{"type":"text-with-icons","blocks":{"template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-0":{"type":"item","settings":{"icon":"picto-return","icon_width":36,"mobile_icon_width":24,"title":"30 Day hassle-free returns","content":"<p>Try on at home risk free - we offer 30 day <a href=\"https:\/\/returns.richcommerce.co\/return\/new?c=nobodysprincess\" title=\"https:\/\/returns.richcommerce.co\/return\/new?c=nobodysprincess\">returns.<\/a><\/p>"}},"template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-1":{"type":"item","settings":{"icon":"picto-customer-support","icon_width":36,"mobile_icon_width":32,"title":"ONe-on-one Fit & sizing HELP","content":"<p>Need help finding the right pants? You can always chat to us!<\/p>"}},"template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-2":{"type":"item","settings":{"icon":"picto-delivery-truck","icon_width":36,"mobile_icon_width":24,"title":"SHIPPING WORLDWIDE","content":"<p>We offer free click 'n' collect, domestic, and international shipping options!<\/p>"}},"7189355d-cf6d-4e15-9994-49f59ea9f42b":{"type":"item","settings":{"icon":"picto-pin","icon_width":36,"mobile_icon_width":24,"title":"FIND A STOCKIST","content":"<p>Looking to try on gear in your local store? Find an Australian or NZ stockist <a href=\"https:\/\/nobodysprincess.com.au\/pages\/stockists?ose=false\" target=\"_blank\" title=\"https:\/\/nobodysprincess.com.au\/pages\/stockists?ose=false\">here<\/a>.<\/p>"}}},"block_order":["template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-0","template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-1","template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-2","7189355d-cf6d-4e15-9994-49f59ea9f42b"],"custom_css":[],"settings":{"color_scheme":"","separate_section_with_border":false,"stack_on_mobile":false,"icon_color":"#fa51a2","text_color":"","text_alignment":"center"}},"image_with_text_xybni9":{"type":"image-with-text","blocks":{"subheading_678Qn8":{"type":"subheading","settings":{"text":"MADE YOUR SIZE, MADE FOR YOUR SHAPE."}},"heading_NXAKkK":{"type":"heading","settings":{"text":"OUTERWEAR THAT FITS YOU, ADAPTS TO YOU, AND MOVES WITH YOU.","heading_tag":"h1"}},"richtext_VLfNhr":{"type":"richtext","settings":{"content":"<p>Our outerwear range showcases adjustability features unlike anything else on the market, meaning you'll<strong> never have to 'size up' to fit <\/strong>your body again. Explore each of our garments to see the functionality we use to create the ultimate and comfortable fit. <\/p>"}},"button_TJkPFF":{"type":"button","settings":{"style":"solid","text":"PANT FEATURES","url":"","background":"","text_color":""}},"button_gVAkGx":{"type":"button","settings":{"style":"solid","text":"BIB FEATURES","url":"","background":"#6a5c76","text_color":""}},"button_AiGCrK":{"type":"button","settings":{"style":"solid","text":"JACKET FEATURES","url":"","background":"#0ca5a0","text_color":""}}},"block_order":["subheading_678Qn8","heading_NXAKkK","richtext_VLfNhr","button_TJkPFF","button_gVAkGx","button_AiGCrK"],"settings":{"color_scheme":"","separate_section_with_border":false,"image":"shopify:\/\/shop_images\/features-nobodysprincess.webp","mobile_image":"shopify:\/\/shop_images\/features-mobile-nobodysprincess.webp","reveal_on_scroll":true,"image_position":"end","content_width":"lg","remove_vertical_spacing":false}},"07164960-c32a-46fe-b70c-cc75b30c94ff":{"type":"collection-list","blocks":{"template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-0":{"type":"collection","settings":{"color_scheme":"scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7","collection":"short-length-bottoms","image":"shopify:\/\/shop_images\/short-ski-pants-nobodysprincess-1500px_c07dff9c-cfb1-4850-8c87-99715ad7e9df.webp","expand_collection":true,"content_position":"place-self-center text-center","subheading":"UP TO 5'2\"","title":"SHORT LEGNTH BOTTOMS","button_text":"","button_link":"","overlay_color":"#404d51","overlay_opacity":20}},"template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-1":{"type":"collection","settings":{"color_scheme":"scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7","collection":"regular-length-bottoms","image":"shopify:\/\/shop_images\/regular-ski-pants-nobodysprincess-1500px_914eb4a4-bcb6-434c-857d-32ee51d7e82f.webp","expand_collection":false,"content_position":"place-self-center text-center","subheading":"5'3\" to 5'8\"","title":"REGULAR LENGTH BOTTOMS","button_text":"","button_link":"","overlay_color":"#404d51","overlay_opacity":21}},"collection_i6pHc7":{"type":"collection","settings":{"color_scheme":"scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7","collection":"tall-length-bottoms","image":"shopify:\/\/shop_images\/tall-ski-pants-nobodysprincess-1500px_1891a790-c6cf-4ccb-a196-36fc4f6bcda1.webp","expand_collection":false,"content_position":"place-self-center text-center","subheading":"5'9\" & UP","title":"TALL LENGTH BOTTOMS","button_text":"","button_link":"","overlay_color":"#404d51","overlay_opacity":20}},"collection_dgatWP":{"type":"collection","settings":{"color_scheme":"scheme-4","collection":"zali-bottoms","image":"shopify:\/\/shop_images\/hourglass-pear-shape-snow-pant-zali-nobodysprincess-1500px.webp","expand_collection":false,"content_position":"place-self-center text-center","subheading":"EXPLORE ZALI","title":"HOURGLASS & PEAR BODY SHAPE","button_text":"","button_link":"","overlay_color":"#711240","overlay_opacity":24}},"collection_yrDbhg":{"type":"collection","settings":{"color_scheme":"scheme-adeeffa8-1754-4ca6-96fb-81549711ecf1","collection":"mila-bottoms","image":"shopify:\/\/shop_images\/apple-rectangle-shape-snow-pant-mila-nobodysprincess-1500px.webp","expand_collection":false,"content_position":"place-self-center text-center","subheading":"EXPLORE MILA","title":"RECTANGLE & APPLE BODY SHAPE","button_text":"","button_link":"","overlay_color":"#361d4b","overlay_opacity":26}}},"block_order":["template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-0","template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-1","collection_i6pHc7","collection_dgatWP","collection_yrDbhg"],"custom_css":[],"settings":{"color_scheme":"scheme-1","separate_section_with_border":false,"image_size":"md","show_text_outside":false,"space_items":true,"stack_collections":true,"collections_per_row_desktop":5,"subheading":"","title":"","content":""}},"5d380996-0e91-4ae0-bde9-b34008c699e1":{"type":"collection-list","blocks":{"501eb2f2-fb38-4b95-acc9-a68aa432851b":{"type":"collection","settings":{"color_scheme":"","collection":"","image":"shopify:\/\/shop_images\/Tryon.jpg","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"VISIT THE NP HQ","title":"TRY-ONS AVAILABLE","button_text":"BOOK A TRY ON","button_link":"shopify:\/\/products\/nphqvisit","overlay_color":"#000000","overlay_opacity":14}},"template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-1":{"type":"collection","settings":{"color_scheme":"","collection":"","image":"shopify:\/\/shop_images\/Shop_Size_2.png","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"NEED HELP WITH SIZING?","title":"FIND YOUR SIZE","button_text":"SIZE GUIDE","button_link":"shopify:\/\/pages\/size-guide-pants","overlay_color":"#000000","overlay_opacity":16}},"template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-0":{"type":"collection","settings":{"color_scheme":"","collection":"","image":"shopify:\/\/shop_images\/Shop_Shape.png","expand_collection":false,"content_position":"place-self-end-start text-start","subheading":"PANTS MADE FOR YOUR SHAPE","title":"FIND YOUR PERFECT FIT","button_text":"TAKE QUIZ","button_link":"https:\/\/nobodys-princess.myshopify.com\/tools\/perfect-product-finder\/which-pant","overlay_color":"#000000","overlay_opacity":16}}},"block_order":["501eb2f2-fb38-4b95-acc9-a68aa432851b","template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-1","template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-0"],"disabled":true,"custom_css":[],"settings":{"color_scheme":"","separate_section_with_border":false,"image_size":"xs","show_text_outside":false,"space_items":true,"stack_collections":true,"collections_per_row_desktop":3,"subheading":"","title":"","content":""}},"blog-posts":{"type":"blog-posts","custom_css":[],"settings":{"color_scheme":"scheme-94e48851-5f0a-41d8-bc24-4aa60dbb1e12","separate_section_with_border":false,"blog":"our-journey-and-the-process","posts_count":3,"stack_on_mobile":true,"show_category":false,"show_excerpt":true,"show_read_more":true,"subheading":"","title":"OUR LATEST BLOG UPDATES","content":"","button_link":"shopify:\/\/blogs\/our-journey-and-the-process","button_text":"View all BLOG POSTS"}},"rich_text_fAJXN8":{"type":"rich-text","blocks":{"subheading_C3A7Ct":{"type":"subheading","settings":{"text":"WE PROUDLY STAND WITH THE LGBTQIA+ COMMUNITY"}},"richtext_KX4BTT":{"type":"richtext","settings":{"content":"<p>Nobody's Princess wholeheartedly supports the LGBTQIA+ community. We believe in a world where acceptance is celebrated, and everyone is free to be their authentic selves. We strive to create an inclusive environment where every individual, regardless of their sexual orientation, gender identity, or expression, feels valued, respected, and embraced.<\/p>"}},"image_Fh9RYW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ally-flag-nobodysprincess_42151eb0-30cd-4464-82b9-9a0e105b1d9d.webp","width_mode":"custom","max_width":130,"mobile_max_width":130}}},"block_order":["subheading_C3A7Ct","richtext_KX4BTT","image_Fh9RYW"],"custom_css":[".h6 {font-size: var(--text-h5); font-weight: 800; line-height: 1.2; background: linear-gradient(120deg, #fa51a2, #e2ecf2); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"],"settings":{"color_scheme":"","separate_section_with_border":true,"content_width":"lg","text_position":"center","remove_vertical_spacing":false}},"multi_column_KY9AEH":{"type":"multi-column","blocks":{"image_with_text_FWREQw":{"type":"image_with_text","settings":{"title":"Women's ski and snowboarding outerwear that is technical, functional, comfortable, and above all - actually fits.","heading_tag":"h5","content":"<p>Our heart beats for the thrill of winter and the outdoors, and we're here to wrap every curve and contour of your unique silhouette in research-driven and community-led ski and snowboard outerwear.<\/p>","link_url":"shopify:\/\/pages\/our-story","link_text":""}},"image_with_text_jtGwfr":{"type":"image_with_text","settings":{"title":"","heading_tag":"h6","content":"<p>Whether you're carving on skis, shredding on a board, or simply basking in the beauty of our mountains, our snow jackets, bibs, and snow pants are designed with one goal in mind: to make you feel unstoppable. Comfort breeds confidence.<\/p>","link_url":"shopify:\/\/pages\/our-story","link_text":"About Us"}}},"block_order":["image_with_text_FWREQw","image_with_text_jtGwfr"],"custom_css":[".container {max-width: 1600px;}",".section-spacing {display: flex; justify-content: center;}"],"settings":{"color_scheme":"scheme-94e48851-5f0a-41d8-bc24-4aa60dbb1e12","separate_section_with_border":false,"columns_per_row":2,"stack_on_mobile":true,"overlap_image":false,"content_alignment":"center","text_alignment":"start","spacing":"lg","subheading":"","title":"","content":""}}},"order":["4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b","featured_collections_iEF4TE","image_with_text_edDTmx","8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b","image_with_text_xybni9","07164960-c32a-46fe-b70c-cc75b30c94ff","5d380996-0e91-4ae0-bde9-b34008c699e1","blog-posts","rich_text_fAJXN8","multi_column_KY9AEH"]}
+{
+  "sections": {
+    "4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16147330105534__4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b-1685601727fc9cc89e-0": {
+          "type": "image",
+          "settings": {
+            "subheading": "EXPERIENCE THE ULTIMATE FIT IN WOMEN'S SNOW GEAR.",
+            "title": "YOUR SNOW SEASON IS TOO SHORT TO BE UNCOMFORTABLE.",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "SHOP BOTTOMS",
+            "button_1_link": "shopify:\/\/collections\/bottoms",
+            "button_1_style": "solid",
+            "button_1_background": "#fa51a2",
+            "button_1_text_color": "#ffffff",
+            "button_2_text": "SHOP JACKETS",
+            "button_2_link": "shopify:\/\/collections\/jackets",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#6a5c76",
+            "background": "",
+            "background_opacity": 10,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(164, 160, 160, 0), rgba(164, 160, 160, 0) 2%, rgba(125, 132, 168, 0.62) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "template--16147330105534__4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b-1685601727fc9cc89e-0"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": false,
+        "media_size": "lg",
+        "autoplay": true,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 6,
+        "background": "#939393",
+        "controls_color": "#fa51a2"
+      }
+    },
+    "featured_collections_iEF4TE": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_FijVE9": {
+          "type": "collection",
+          "settings": {
+            "collection": "snow-pants",
+            "products_count": 8,
+            "title": "PANTS",
+            "link_url": "shopify:\/\/collections\/snow-pants",
+            "link_text": "EXPORE ALL PANTS"
+          }
+        },
+        "collection_tiRUXe": {
+          "type": "collection",
+          "settings": {
+            "collection": "jackets",
+            "products_count": 12,
+            "title": "JACKETS",
+            "link_url": "shopify:\/\/collections\/jackets",
+            "link_text": "EXPLORE ALL JACKETS"
+          }
+        },
+        "collection_XkAHC4": {
+          "type": "collection",
+          "settings": {
+            "collection": "bibs",
+            "products_count": 8,
+            "title": "BIBS",
+            "link_url": "shopify:\/\/collections\/bibs",
+            "link_text": "EXPORE ALL BIBS"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FijVE9",
+        "collection_tiRUXe",
+        "collection_XkAHC4"
+      ],
+      "custom_css": [
+        ".h6 {font-size: var(--text-h5); font-weight: 800; line-height: 1.2; background: linear-gradient(120deg, #fa51a2, #e2ecf2); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}",
+        ".h2 {font-size: var(--text-h3); font-weight: 800; color: #6a5c76;}",
+        ".featured-collections-navigation > button:not(:only-child):after {color: #6a5c76; height: 3px;}",
+        ".featured-collections-navigation > [aria-current=\"false\"] {font-size: var(--text-h3); font-weight: 800; color: #8f8599;"
+      ],
+      "settings": {
+        "color_scheme": "scheme-ae9d2042-b5d2-43c6-869d-d25197171169",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "MORE OPTIONS. MORE COMFORT. MORE CONFIDENCE."
+      }
+    },
+    "image_with_text_edDTmx": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_MVqbNB": {
+          "type": "subheading",
+          "settings": {
+            "text": "EVERYONE DESERVES TO LOOK AND <strong>FEEL<\/strong> GOOD."
+          }
+        },
+        "heading_RpyBkw": {
+          "type": "heading",
+          "settings": {
+            "text": "Women's snow & ski gear that actually fits, and, is shape, size, and height inclusive.",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_AAyRBp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our women's snow outerwear is designed to fit all our unique body types, from short and lean, to tall and curvy - and everything in between. We pride ourselves on offering technical snow apparel made specifically for women that looks good, fits well, and above all - is comfortable. We want you feeling your best while you're out on the snow - and not worrying about what you're wearing. <\/p>"
+          }
+        },
+        "button_A9nUpk": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "LEARN MORE",
+            "url": "shopify:\/\/pages\/womens-snow-pants",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_4cJLif": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "FIND YOUR PERFECT FIT",
+            "url": "https:\/\/nobodys-princess.myshopify.com\/tools\/perfect-product-finder\/which-pant",
+            "background": "#6a5c76",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MVqbNB",
+        "heading_RpyBkw",
+        "richtext_AAyRBp",
+        "button_A9nUpk",
+        "button_4cJLif"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return",
+            "icon_width": 36,
+            "mobile_icon_width": 24,
+            "title": "30 Day hassle-free returns",
+            "content": "<p>Try on at home risk free - we offer 30 day <a href=\"https:\/\/returns.richcommerce.co\/return\/new?c=nobodysprincess\" title=\"https:\/\/returns.richcommerce.co\/return\/new?c=nobodysprincess\">returns.<\/a><\/p>"
+          }
+        },
+        "template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 36,
+            "mobile_icon_width": 32,
+            "title": "ONe-on-one Fit & sizing HELP",
+            "content": "<p>Need help finding the right pants? You can always chat to us!<\/p>"
+          }
+        },
+        "template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "icon_width": 36,
+            "mobile_icon_width": 24,
+            "title": "SHIPPING WORLDWIDE",
+            "content": "<p>We offer free click 'n' collect, domestic, and international shipping options!<\/p>"
+          }
+        },
+        "7189355d-cf6d-4e15-9994-49f59ea9f42b": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-pin",
+            "icon_width": 36,
+            "mobile_icon_width": 24,
+            "title": "FIND A STOCKIST",
+            "content": "<p>Looking to try on gear in your local store? Find an Australian or NZ stockist <a href=\"https:\/\/nobodysprincess.com.au\/pages\/stockists?ose=false\" target=\"_blank\" title=\"https:\/\/nobodysprincess.com.au\/pages\/stockists?ose=false\">here<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-0",
+        "template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-1",
+        "template--16147330105534__8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b-16842018098ba2568a-2",
+        "7189355d-cf6d-4e15-9994-49f59ea9f42b"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "stack_on_mobile": false,
+        "icon_color": "#fa51a2",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "image_with_text_xybni9": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_678Qn8": {
+          "type": "subheading",
+          "settings": {
+            "text": "MADE YOUR SIZE, MADE FOR YOUR SHAPE."
+          }
+        },
+        "heading_NXAKkK": {
+          "type": "heading",
+          "settings": {
+            "text": "OUTERWEAR THAT FITS YOU, ADAPTS TO YOU, AND MOVES WITH YOU.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_VLfNhr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our outerwear range showcases adjustability features unlike anything else on the market, meaning you'll<strong> never have to 'size up' to fit <\/strong>your body again. Explore each of our garments to see the functionality we use to create the ultimate and comfortable fit. <\/p>"
+          }
+        },
+        "button_TJkPFF": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "PANT FEATURES",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_gVAkGx": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "BIB FEATURES",
+            "url": "",
+            "background": "#6a5c76",
+            "text_color": ""
+          }
+        },
+        "button_AiGCrK": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "JACKET FEATURES",
+            "url": "",
+            "background": "#0ca5a0",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_678Qn8",
+        "heading_NXAKkK",
+        "richtext_VLfNhr",
+        "button_TJkPFF",
+        "button_gVAkGx",
+        "button_AiGCrK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
+        "reveal_on_scroll": false,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": false
+      }
+    },
+    "07164960-c32a-46fe-b70c-cc75b30c94ff": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-0": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7",
+            "collection": "short-length-bottoms",
+            "expand_collection": true,
+            "content_position": "place-self-center text-center",
+            "subheading": "UP TO 5'2\"",
+            "title": "SHORT LEGNTH BOTTOMS",
+            "button_text": "",
+            "button_link": "",
+            "overlay_color": "#404d51",
+            "overlay_opacity": 20
+          }
+        },
+        "template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-1": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7",
+            "collection": "regular-length-bottoms",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "5'3\" to 5'8\"",
+            "title": "REGULAR LENGTH BOTTOMS",
+            "button_text": "",
+            "button_link": "",
+            "overlay_color": "#404d51",
+            "overlay_opacity": 21
+          }
+        },
+        "collection_i6pHc7": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7",
+            "collection": "tall-length-bottoms",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "5'9\" & UP",
+            "title": "TALL LENGTH BOTTOMS",
+            "button_text": "",
+            "button_link": "",
+            "overlay_color": "#404d51",
+            "overlay_opacity": 20
+          }
+        },
+        "collection_dgatWP": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "collection": "zali-bottoms",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "EXPLORE ZALI",
+            "title": "HOURGLASS & PEAR BODY SHAPE",
+            "button_text": "",
+            "button_link": "",
+            "overlay_color": "#711240",
+            "overlay_opacity": 24
+          }
+        },
+        "collection_yrDbhg": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-adeeffa8-1754-4ca6-96fb-81549711ecf1",
+            "collection": "mila-bottoms",
+            "expand_collection": false,
+            "content_position": "place-self-center text-center",
+            "subheading": "EXPLORE MILA",
+            "title": "RECTANGLE & APPLE BODY SHAPE",
+            "button_text": "",
+            "button_link": "",
+            "overlay_color": "#361d4b",
+            "overlay_opacity": 26
+          }
+        }
+      },
+      "block_order": [
+        "template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-0",
+        "template--16077366919358__07164960-c32a-46fe-b70c-cc75b30c94ff-1677037306f9c4e608-1",
+        "collection_i6pHc7",
+        "collection_dgatWP",
+        "collection_yrDbhg"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "image_size": "md",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 5,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "5d380996-0e91-4ae0-bde9-b34008c699e1": {
+      "type": "collection-list",
+      "blocks": {
+        "501eb2f2-fb38-4b95-acc9-a68aa432851b": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "VISIT THE NP HQ",
+            "title": "TRY-ONS AVAILABLE",
+            "button_text": "BOOK A TRY ON",
+            "button_link": "shopify:\/\/products\/nphqvisit",
+            "overlay_color": "#000000",
+            "overlay_opacity": 14
+          }
+        },
+        "template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-1": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "NEED HELP WITH SIZING?",
+            "title": "FIND YOUR SIZE",
+            "button_text": "SIZE GUIDE",
+            "button_link": "shopify:\/\/pages\/size-guide-pants",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        },
+        "template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-0": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "PANTS MADE FOR YOUR SHAPE",
+            "title": "FIND YOUR PERFECT FIT",
+            "button_text": "TAKE QUIZ",
+            "button_link": "https:\/\/nobodys-princess.myshopify.com\/tools\/perfect-product-finder\/which-pant",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16
+          }
+        }
+      },
+      "block_order": [
+        "501eb2f2-fb38-4b95-acc9-a68aa432851b",
+        "template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-1",
+        "template--16077366919358__5d380996-0e91-4ae0-bde9-b34008c699e1-16769381837eda48cd-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image_size": "xs",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-94e48851-5f0a-41d8-bc24-4aa60dbb1e12",
+        "separate_section_with_border": false,
+        "blog": "our-journey-and-the-process",
+        "posts_count": 3,
+        "stack_on_mobile": true,
+        "show_category": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "OUR LATEST BLOG UPDATES",
+        "content": "",
+        "button_link": "shopify:\/\/blogs\/our-journey-and-the-process",
+        "button_text": "View all BLOG POSTS"
+      }
+    },
+    "rich_text_fAJXN8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_C3A7Ct": {
+          "type": "subheading",
+          "settings": {
+            "text": "WE PROUDLY STAND WITH THE LGBTQIA+ COMMUNITY"
+          }
+        },
+        "richtext_KX4BTT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Nobody's Princess wholeheartedly supports the LGBTQIA+ community. We believe in a world where acceptance is celebrated, and everyone is free to be their authentic selves. We strive to create an inclusive environment where every individual, regardless of their sexual orientation, gender identity, or expression, feels valued, respected, and embraced.<\/p>"
+          }
+        },
+        "image_Fh9RYW": {
+          "type": "image",
+          "settings": {
+            "width_mode": "custom",
+            "max_width": 130,
+            "mobile_max_width": 130
+          }
+        }
+      },
+      "block_order": [
+        "subheading_C3A7Ct",
+        "richtext_KX4BTT",
+        "image_Fh9RYW"
+      ],
+      "custom_css": [
+        ".h6 {font-size: var(--text-h5); font-weight: 800; line-height: 1.2; background: linear-gradient(120deg, #fa51a2, #e2ecf2); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_KY9AEH": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_FWREQw": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "Women's ski and snowboarding outerwear that is technical, functional, comfortable, and above all - actually fits.",
+            "heading_tag": "h5",
+            "content": "<p>Our heart beats for the thrill of winter and the outdoors, and we're here to wrap every curve and contour of your unique silhouette in research-driven and community-led ski and snowboard outerwear.<\/p>",
+            "link_url": "shopify:\/\/pages\/our-story",
+            "link_text": ""
+          }
+        },
+        "image_with_text_jtGwfr": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "",
+            "heading_tag": "h6",
+            "content": "<p>Whether you're carving on skis, shredding on a board, or simply basking in the beauty of our mountains, our snow jackets, bibs, and snow pants are designed with one goal in mind: to make you feel unstoppable. Comfort breeds confidence.<\/p>",
+            "link_url": "shopify:\/\/pages\/our-story",
+            "link_text": "About Us"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_FWREQw",
+        "image_with_text_jtGwfr"
+      ],
+      "custom_css": [
+        ".container {max-width: 1600px;}",
+        ".section-spacing {display: flex; justify-content: center;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-94e48851-5f0a-41d8-bc24-4aa60dbb1e12",
+        "separate_section_with_border": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "lg",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "outfit_creator_n7LPRm": {
+      "type": "outfit-creator",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "",
+        "seperate_section_with_border": true,
+        "container_size": "lg",
+        "subheading": "",
+        "title": "Outfit creator",
+        "content": "<p>Curious to see how your new kit will look before you buy it? Use our outfit selector to pick 'n' mix your outerwear before you commit.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b",
+    "featured_collections_iEF4TE",
+    "image_with_text_edDTmx",
+    "8eab6080-c1ee-48c0-a4ee-3e1f16cbae0b",
+    "image_with_text_xybni9",
+    "07164960-c32a-46fe-b70c-cc75b30c94ff",
+    "5d380996-0e91-4ae0-bde9-b34008c699e1",
+    "blog-posts",
+    "rich_text_fAJXN8",
+    "multi_column_KY9AEH",
+    "outfit_creator_n7LPRm"
+  ]
+}
