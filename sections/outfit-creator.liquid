@@ -1,77 +1,75 @@
-{% assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient |  default: section.settings.color_scheme.settings.background |  md5 %}
+{% assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 %}
 
 <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
-    <div class="container {%  unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
-        <div class="section-stack">
-            {%  render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: 'center' %} 
-        </div>
+  <div class="container {%  unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
+    <div class="section-stack">
+      {% render 'section-header'
+        , subheading: section.settings.subheading
+        , heading: section.settings.title
+        , content: section.settings.content
+        , text_alignment: 'center' %}
     </div>
+  </div>
 </div>
 
 
-
-{%  schema  %} 
-    {
-        "name": "Outfit Creator",
-        "class": "shopify-section--outfit-creator",
-        "tag": "section",
-        "disabled_on": {
-            "templates": ["password"],
-            "groups": ["header", "footer"]
-        },
-        "settings": [
-            {
-                "type": "color_scheme",
-                "id": "color_scheme",
-                "label": "t:global.colors.scheme",
-                "default": "scheme-1"
-            },
-            {
-                "type": "checkbox",
-                "id": "seperate_section_with_border",
-                "label": "t:global.section.separate_section_with_border",
-                "default": true
-            },
-            {
-                "type": "select",
-                "id": "container_size",
-                "label": "t:global.sizes.section_width",
-                "options": [
-                    {
-                        "value": "lg",
-                        "label": "t:global.sizes.large"
-                    },
-                    {
-                        "value": "xl",
-                        "label": "t:global.sizes.x_large"
-                    },
-                    {
-                        "value": "full",
-                        "label": "t:global.sizes.full_width"
-                    }
-                ],
-                "default": "lg"
-            },
-            {
-                "type": "header",
-                "content": "t:global.section.header_category"
-            },
-            {
-                "type": "inline_richtext",
-                "id": "subheading",
-                "label": "t:global.text.subheading"
-            },
-            {
-                "type": "inline_richtext",
-                "id": "title",
-                "label": "t:global.text.heading",
-                "default": "Outfit creator"
-            },
-            {
-                "type": "richtext",
-                "id": "content",
-                "label": "t:global.text.content"
-            }
-        ]
-    }
-{% endschema %} 
+{% schema %}
+  {
+    "name": "Outfit Creator",
+    "class": "shopify-section--outfit-creator",
+    "tag": "section",
+    "disabled_on": {
+      "templates": ["password"],
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:global.colors.scheme",
+        "default": "scheme-1"
+      },
+      {
+        "type": "checkbox",
+        "id": "seperate_section_with_border",
+        "label": "t:global.section.separate_section_with_border",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "container_size",
+        "label": "t:global.sizes.section_width",
+        "options": [
+          {
+            "value": "lg",
+            "label": "t:global.sizes.large"
+          }, {
+            "value": "xl",
+            "label": "t:global.sizes.x_large"
+          }, {
+            "value": "full",
+            "label": "t:global.sizes.full_width"
+          }
+        ],
+        "default": "lg"
+      },
+      {
+        "type": "header",
+        "content": "t:global.section.header_category"
+      }, {
+        "type": "inline_richtext",
+        "id": "subheading",
+        "label": "t:global.text.subheading"
+      }, {
+        "type": "inline_richtext",
+        "id": "title",
+        "label": "t:global.text.heading",
+        "default": "Outfit creator"
+      }, {
+        "type": "richtext",
+        "id": "content",
+        "label": "t:global.text.content"
+      }
+    ]
+  }
+{% endschema %}
