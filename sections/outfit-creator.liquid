@@ -17,8 +17,14 @@
           </div>
           <div class="product-preview__container">
             <div class="preview-img__container">
+              {% if section.settings.image != blank  %}
+                
+                <picture> </picture>
+              
               {}
-              <picture>
+              
+              {% endif %} 
+
             </div>
           </div>
 
