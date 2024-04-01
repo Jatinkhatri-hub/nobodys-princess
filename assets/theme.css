@@ -6688,10 +6688,12 @@ tfoot td {
 }
 
 
-.outfit-creator__container {
+.outfit-creator {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
+
+.outfit-creator
 
 .border {
   border-width: 1px;
