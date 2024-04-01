@@ -22,7 +22,7 @@
                 <picture> </picture>
               
               {% else %}
-                 {{ section.settings.image |  image_url: width: section.settings.image.width |  image_tag  }}
+                 {{ section.settings.image |  image_url: width: section.settings.image.width |  image_tag: size  }}
               {% endif %} 
 
             </div>
