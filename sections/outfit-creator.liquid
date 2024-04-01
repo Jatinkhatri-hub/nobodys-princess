@@ -1,4 +1,4 @@
-{% assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient |  default: section %}
+{% assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient |  default: section.settings.color_scheme.settings.background |  md5 %}
 
 
 
