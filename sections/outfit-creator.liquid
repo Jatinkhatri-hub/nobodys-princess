@@ -15,7 +15,11 @@
         <div class="outfit-creator__container gap-12">
           <div class="product-categories__container">
             <div>
-              {%  render 'outfit-collection', heading: section.settings.collection_heading %} 
+              {%  render 'outfit-collection'
+              , heading: section.settings.collection_heading
+              , product_image: section.settings.product_image
+        , product_name: section.settings.product_name
+        , product_price: section.settings.product_price %} 
             </div>
           </div>
           <div class="product-preview__container">
