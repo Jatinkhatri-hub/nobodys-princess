@@ -6715,7 +6715,7 @@ tfoot td {
 }
 
 .product-card__item {
-  
+  list-style: none;
 }
 
 
