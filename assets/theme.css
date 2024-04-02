@@ -6719,13 +6719,13 @@ tfoot td {
     grid-column: 2 / 12;
   }
 
-  .product-preview__container {
+  /* .product-preview__container {
     grid-column: 1 / 3;
   }
 
   .product-categories__container {
     grid-column: 1 / 3;
-  }
+  } */
   
   
   
