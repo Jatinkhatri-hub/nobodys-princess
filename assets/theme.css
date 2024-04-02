@@ -6718,7 +6718,7 @@ tfoot td {
 
   .outfit-creator__container {
     grid-template-columns: 1fr; /* Stack elements vertically */
-    justify-items: center; /* Center child items horizontally */
+    justify-content: center; /* Center child items horizontally */
   }
 
   .product-preview__container {
