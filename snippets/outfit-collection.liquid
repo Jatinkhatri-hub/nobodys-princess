@@ -4,9 +4,9 @@
         <div class="outfit-collection__header">
             <div>
                 {% if heading != blank %}
-                <h4 class="h4">{{ heading }}</h4>
-        {% endif %}
-        </div>
+                    <h4 class="h4">{{ heading }}</h4>
+                {% endif %}
+            </div>
         <div>
             <button type="button">
                 {%- render 'icon' with 'minus', width: 12, direction_aware: true -%}
