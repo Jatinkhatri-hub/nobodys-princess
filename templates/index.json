@@ -576,14 +576,37 @@
     },
     "outfit_creator_3VrfAE": {
       "type": "outfit-creator",
+      "blocks": {
+        "section_eBY8n3": {
+          "type": "section",
+          "settings": {
+            "collection_heading": "Snow Jacket",
+            "product_image": "shopify:\/\/shop_images\/image_10.png",
+            "product_name": "Pop Block",
+            "product_price": "$399"
+          }
+        },
+        "section_DXpAnU": {
+          "type": "section",
+          "settings": {
+            "collection_heading": "snow pants",
+            "product_image": "shopify:\/\/shop_images\/image_3.png",
+            "product_name": "Voilet",
+            "product_price": "$399"
+          }
+        }
+      },
+      "block_order": [
+        "section_eBY8n3",
+        "section_DXpAnU"
+      ],
       "settings": {
         "color_scheme": "",
         "seperate_section_with_border": true,
         "container_size": "lg",
         "subheading": "",
         "title": "Outfit creator",
-        "content": "",
-        "collection_heading": "Collection Categorie",
+        "content": "<p>Curious to see how your new kit will look before you buy it? Use our outfit selector to pick 'n' mix your outerwear before you commit.<\/p>",
         "image": "shopify:\/\/shop_images\/Image_Output.png"
       }
     }
