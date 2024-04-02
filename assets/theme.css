@@ -6691,7 +6691,7 @@ tfoot td {
 .outfit-creator {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin-top
+  margin-top: 2rem;
 }
 
 .outfit-creator__container {
