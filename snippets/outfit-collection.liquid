@@ -24,7 +24,7 @@
                 {% if product_image != blank %}
                     <img src="{{ product_image |  image_url: width: 160 }}" alt="Product Image">
                 {% else %}
-                    {{ 'placeholder_image_url' | placeholder_svg_tag: 'Placeholder' }}
+                    {{ 'placeholder_image_url' | placeholder_svg_tag: 'placeholder' }}
                 {% endif %}
               </div>
               <div class="product-info__container">
