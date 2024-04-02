@@ -6,6 +6,8 @@
         "template--16147330105534__4c46a8e7-c985-4f7f-a2c2-a5fb2375fa2b-1685601727fc9cc89e-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Nobodys-Princess-SnowPants-Desktop.webp",
+            "mobile_image": "shopify:\/\/shop_images\/Nobodys-Princess-SnowPants-Mobile.webp",
             "subheading": "EXPERIENCE THE ULTIMATE FIT IN WOMEN'S SNOW GEAR.",
             "title": "YOUR SNOW SEASON IS TOO SHORT TO BE UNCOMFORTABLE.",
             "mobile_text_position": "place-self-end-center text-center",
@@ -156,6 +158,8 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/hanging-ski-clothing-nobodys-princess-desktop.webp",
+        "mobile_image": "shopify:\/\/shop_images\/hanging-ski-clothing-nobodys-princess-mobile.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
@@ -286,10 +290,11 @@
         "button_AiGCrK"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "separate_section_with_border": false,
-        "image": "shopify:\/\/shop_images\/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-        "reveal_on_scroll": false,
+        "image": "shopify:\/\/shop_images\/features-nobodysprincess.webp",
+        "mobile_image": "shopify:\/\/shop_images\/features-mobile-nobodysprincess.webp",
+        "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "lg",
         "remove_vertical_spacing": false
@@ -303,6 +308,7 @@
           "settings": {
             "color_scheme": "scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7",
             "collection": "short-length-bottoms",
+            "image": "shopify:\/\/shop_images\/short-ski-pants-nobodysprincess-1500px_c07dff9c-cfb1-4850-8c87-99715ad7e9df.webp",
             "expand_collection": true,
             "content_position": "place-self-center text-center",
             "subheading": "UP TO 5'2\"",
@@ -318,6 +324,7 @@
           "settings": {
             "color_scheme": "scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7",
             "collection": "regular-length-bottoms",
+            "image": "shopify:\/\/shop_images\/regular-ski-pants-nobodysprincess-1500px_914eb4a4-bcb6-434c-857d-32ee51d7e82f.webp",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "5'3\" to 5'8\"",
@@ -333,6 +340,7 @@
           "settings": {
             "color_scheme": "scheme-7bb30981-8898-47c3-beb4-a0bba1cb60f7",
             "collection": "tall-length-bottoms",
+            "image": "shopify:\/\/shop_images\/tall-ski-pants-nobodysprincess-1500px_1891a790-c6cf-4ccb-a196-36fc4f6bcda1.webp",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "5'9\" & UP",
@@ -348,6 +356,7 @@
           "settings": {
             "color_scheme": "scheme-4",
             "collection": "zali-bottoms",
+            "image": "shopify:\/\/shop_images\/hourglass-pear-shape-snow-pant-zali-nobodysprincess-1500px.webp",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "EXPLORE ZALI",
@@ -363,6 +372,7 @@
           "settings": {
             "color_scheme": "scheme-adeeffa8-1754-4ca6-96fb-81549711ecf1",
             "collection": "mila-bottoms",
+            "image": "shopify:\/\/shop_images\/apple-rectangle-shape-snow-pant-mila-nobodysprincess-1500px.webp",
             "expand_collection": false,
             "content_position": "place-self-center text-center",
             "subheading": "EXPLORE MILA",
@@ -405,6 +415,7 @@
           "settings": {
             "color_scheme": "",
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Tryon.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "VISIT THE NP HQ",
@@ -420,6 +431,7 @@
           "settings": {
             "color_scheme": "",
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Shop_Size_2.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "NEED HELP WITH SIZING?",
@@ -435,6 +447,7 @@
           "settings": {
             "color_scheme": "",
             "collection": "",
+            "image": "shopify:\/\/shop_images\/Shop_Shape.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "PANTS MADE FOR YOUR SHAPE",
@@ -507,6 +520,7 @@
         "image_Fh9RYW": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ally-flag-nobodysprincess_42151eb0-30cd-4464-82b9-9a0e105b1d9d.webp",
             "width_mode": "custom",
             "max_width": 130,
             "mobile_max_width": 130
@@ -574,20 +588,6 @@
         "title": "",
         "content": ""
       }
-    },
-    "outfit_creator_n7LPRm": {
-      "type": "outfit-creator",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "color_scheme": "",
-        "seperate_section_with_border": true,
-        "container_size": "lg",
-        "subheading": "",
-        "title": "Outfit creator",
-        "content": "<p>Curious to see how your new kit will look before you buy it? Use our outfit selector to pick 'n' mix your outerwear before you commit.<\/p>"
-      }
     }
   },
   "order": [
@@ -600,7 +600,6 @@
     "5d380996-0e91-4ae0-bde9-b34008c699e1",
     "blog-posts",
     "rich_text_fAJXN8",
-    "multi_column_KY9AEH",
-    "outfit_creator_n7LPRm"
+    "multi_column_KY9AEH"
   ]
 }
