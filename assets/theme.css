@@ -6722,6 +6722,10 @@ tfoot td {
     justify-content: center; /* Center child items horizontally */
   }
 
+  .outfit-collection__header {
+    font
+  }
+
   .product-preview__container {
     justify-self: center;
     margin: 1rem 0; /* Adjust vertical spacing */
