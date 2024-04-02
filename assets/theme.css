@@ -6703,6 +6703,11 @@ tfoot td {
   border-bottom: 1px solid #5c5c5c;
 }
 
+.outfit-collection__header {
+  display: grid;
+  
+}
+
 
 .product-preview__container {
   margin: 2rem 0;
