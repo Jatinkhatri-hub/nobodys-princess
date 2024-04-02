@@ -14,13 +14,7 @@
             </div>
         </div>
         <div>
-            {% for product in products %}
-            {% render 'product-card', 
-                product: product, 
-                stacked: {{ isStacked }},
-                reveal: {{ isReveal }}   
-            %}
-            {% endfor %}
+           
         </div>
         
     {% endif %}
