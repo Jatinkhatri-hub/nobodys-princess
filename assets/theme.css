@@ -6715,6 +6715,16 @@ tfoot td {
 
 
 @media screen and (max-width: 699px) {
+
+  .outfit-creator__container {
+    grid-template-columns: 1fr; /* Stack elements vertically */
+    justify-items: center; /* Center child items horizontally */
+  }
+
+  .product-preview__container {
+    margin: 1rem 0; /* Adjust vertical spacing */
+  }
+
   /* .outfit-creator__container {
     grid-column: 2 / 12;
   } */
