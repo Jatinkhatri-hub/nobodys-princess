@@ -6709,6 +6709,8 @@ tfoot td {
   grid-template-columns: 1fr 20px;
 }
 
+.product
+
 
 .product-preview__container {
   margin: 2rem 0;
@@ -6717,6 +6719,7 @@ tfoot td {
 product-list__container {
   display: grid;
 }
+
 
 .product-card__item {
   list-style: none;
