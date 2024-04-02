@@ -6715,7 +6715,7 @@ tfoot td {
 
 
 @media screen and (max-width: 699px) {
-  
+  grid-column: 2 / 12;
   
 }
 
