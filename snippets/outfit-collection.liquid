@@ -14,7 +14,13 @@
             </div>
         </div>
         <div>
-            
+            {% for product in products %}
+            {% render 'product-card', 
+                product: product, 
+                reveal: should_reveal, 
+                
+            %}
+            {% endfor %}
         </div>
         
     {% endif %}
