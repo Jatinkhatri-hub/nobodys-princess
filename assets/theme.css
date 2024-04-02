@@ -6694,8 +6694,11 @@ tfoot td {
 }
 
 .outfit-creator__container {
+  display: grid;
   grid-column: 2 / 12;
 }
+
+.
 
 .border {
   border-width: 1px;
