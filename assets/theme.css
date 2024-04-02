@@ -6730,7 +6730,9 @@ product-list__container {
   margin: 0;
 }
 
-.product-ma
+.product-img__container {
+  width: 160px;
+}
 
 
 
