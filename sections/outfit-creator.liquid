@@ -17,7 +17,11 @@
             {%  capture product_list %} 
               {%  assign should_reveal = false %}
               
-              {}
+              {% if settings.stagger_products_apparition and forloop.first %}
+                {%  assign should_reveal = true %}
+              {% endif %}
+
+              
               
             {% endcapture %} 
 
