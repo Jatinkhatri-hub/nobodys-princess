@@ -2,9 +2,9 @@
     <div class="outfit-collection jusfify-self-{{ text-alignment |  default: 'start'}} text-{{ text-alignment |  default: 'start' }}">
     {% if heading != blank %} 
         <div class="outfit-collection__header">
-        <div>
-        {% if heading != blank %}
-            <h4 class="h4">{{ heading }}</h4>
+            <div>
+                {% if heading != blank %}
+                <h4 class="h4">{{ heading }}</h4>
         {% endif %}
         </div>
         <div>
