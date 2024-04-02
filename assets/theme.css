@@ -6727,7 +6727,9 @@ tfoot td {
     grid-column: 1 / 3;
   } */
   
-  .outfit-
+  .outfit-creator__container {
+    justify-content: ;
+  }
   
   
 }
