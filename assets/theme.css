@@ -6699,7 +6699,7 @@ tfoot td {
   grid-template-columns: 1fr 400px;
 }
 
-.outfit-collection__header {
+.outfit-collection {
   border-bottom: 1px solid #5c5c5c;
 }
 
