@@ -6726,7 +6726,9 @@ product-list__container {
   margin: 2rem 0;
 }
 
-.product-list__contai
+.product-list__container {
+  margin: 0;
+}
 
 
 
