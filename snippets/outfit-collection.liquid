@@ -21,8 +21,11 @@
           <li class="product-card__item">
             <div class="product-card__container">
               <div class="product-img__container">
+                {% if product_image != blank %}
                 <img src="{{ product_image |  image_url: width: 160 }}" alt="Product Image">
-                
+                {% else %}
+                    {{ 'placeholder_image_url' | placeholder_svg_tag: 'Placeholder' }}
+                {% endif %}
               </div>
               <div class="product-info__container">
                 <div>
