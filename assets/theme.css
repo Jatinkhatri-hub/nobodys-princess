@@ -6719,7 +6719,9 @@ tfoot td {
     grid-column: 2 / 12;
   }
 
-  .product-p
+  .product-preview__container {
+    grid-column: ;
+  }
   
   
   
