@@ -6715,7 +6715,9 @@ tfoot td {
 
 
 @media screen and (max-width: 699px) {
+  .outfit-creator__container {
   grid-column: 2 / 12;
+  
   
 }
 
