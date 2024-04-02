@@ -14,23 +14,10 @@
       <div class="outfit-creator__container gap-12">
         <div class="product-categories__container">
           <div>
-            {%  capture product_list %} 
-              {%  assign should_reveal = false %}
-              
-              {% if settings.stagger_products_apparition and forloop.first %}
-                {%  assign should_reveal = true %}
-              {% endif %}
+            {%  capture prod %}  {% endcapture %} %}
 
-              {%- for product in block.settings.collection.products limit: block.settings.products_count -%}
-                {% render 'outfit-collection',
-                heading: section.settings.collection_heading,
-                product: product,
-                stacked: section.settings.stack_products,
-                reveal: should_reveal %}
-              {% endfor %}
-            {% endcapture %} 
-
-            
+            {% render 'outfit-collection'
+              , heading: section.settings.collection_heading %}
           </div>
         </div>
         <div class="product-preview__container">
