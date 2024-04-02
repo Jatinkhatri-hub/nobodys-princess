@@ -6714,7 +6714,9 @@ tfoot td {
   margin: 2rem 0;
 }
 
-product-list__contain
+product-list__container {
+  display: grid;
+}
 
 .product-card__item {
   list-style: none;
