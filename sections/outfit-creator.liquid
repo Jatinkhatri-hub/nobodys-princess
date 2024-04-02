@@ -11,28 +11,29 @@
     </div>
 
     <div class="outfit-creator">
-        <div class="outfit-creator__container gap-12">
-          <div class="product-categories__container">
-            <div>
-              {%  render 'outfit-collection', heading: section.settings.collection_heading %} 
-            </div>
+      <div class="outfit-creator__container gap-12">
+        <div class="product-categories__container">
+          <div>
+            {% render 'outfit-collection'
+              , heading: section.settings.collection_heading %}
           </div>
-          <div class="product-preview__container">
-            <div class="preview-img__container">
-              {% if section.settings.image != blank  %}
-                <picture> 
-                  {%  assign sizes = "(max-width: 699px) 100vh,50vh" %}   
-              
-                 {{ section.settings.image |  image_url: width: section.settings.image.width |  image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', reveal-on-scroll: section.settings.reveal_on_scroll  }}
-                </picture>
-              {% else %}
-                {{ 'image' |  placeholder_svg_tag: 'placeholder' }}
-              {% endif %} 
-
-            </div>
-          </div>
-
         </div>
+        <div class="product-preview__container">
+          <div class="preview-img__container">
+            {% if section.settings.image != blank %}
+              <picture>
+                {% assign sizes = "(max-width: 699px) 100vh,50vh" %}
+
+                {{ section.settings.image | image_url: width: section.settings.image.width | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', reveal-on-scroll: section.settings.reveal_on_scroll }}
+              </picture>
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder' }}
+            {% endif %}
+
+          </div>
+        </div>
+
+      </div>
 
     </div>
 
@@ -77,42 +78,37 @@
         ],
         "default": "lg"
       },
-       {
+      {
         "type": "header",
         "content": "t:global.product_list.product_list_category"
-      },
-      {
+      }, {
         "type": "checkbox",
         "id": "stack_products",
         "label": "t:global.product_list.stack_products",
         "default": true
-      },
-       {
-      "type": "select",
-      "id": "products_per_row_mobile",
-      "label": "t:global.product_list.products_per_row_mobile",
-      "options": [
-        {
-          "value": "1",
-          "label": "1"
-        },
-        {
-          "value": "2",
-          "label": "2"
-        }
-      ],
-      "default": "2"
-    },
-    {
-      "type": "range",
-      "id": "products_per_row_desktop",
-      "min": 2,
-      "max": 6,
-      "label": "t:global.product_list.products_per_row_desktop",
-      "info": "t:global.product_list.products_per_row_desktop_info",
-      "default": 4
-    },
-      {
+      }, {
+        "type": "select",
+        "id": "products_per_row_mobile",
+        "label": "t:global.product_list.products_per_row_mobile",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          }, {
+            "value": "2",
+            "label": "2"
+          }
+        ],
+        "default": "2"
+      }, {
+        "type": "range",
+        "id": "products_per_row_desktop",
+        "min": 2,
+        "max": 6,
+        "label": "t:global.product_list.products_per_row_desktop",
+        "info": "t:global.product_list.products_per_row_desktop_info",
+        "default": 4
+      }, {
         "type": "header",
         "content": "t:global.section.header_category"
       }, {
@@ -128,18 +124,15 @@
         "type": "richtext",
         "id": "content",
         "label": "t:global.text.content"
-      },
-      {
+      }, {
         "type": "header",
         "content": "Collection Header"
-      },
-      {
+      }, {
         "type": "inline_richtext",
         "id": "collection_heading",
         "label": "Collection Heading",
         "default": "Collection Categorie"
-      },
-      {
+      }, {
         "type": "image_picker",
         "id": "image",
         "label": "Image"
