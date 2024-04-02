@@ -14,14 +14,18 @@
     <div class="outfit-creator">
         <div class="outfit-creator__container gap-12">
           <div class="product-categories__container">
-            {}
-            <div>
+            {% for block in section.blocks %}
+              {% case block.type %}
+              {% when 'section' %}
+            <div {{ block.shopify_attributes }}>
               {%  render 'outfit-collection'
-              , heading: section.settings.collection_heading
-              , product_image: section.settings.product_image
-              , product_name: section.settings.product_name
-              , product_price: section.settings.product_price %} 
+              , heading: block.settings.collection_heading
+              , product_image: block.settings.product_image
+              , product_name: block.settings.product_name
+              , product_price: block.settings.product_price %} 
             </div>
+            {% endcase %}
+          {% endfor %}
           </div>
           <div class="product-preview__container">
             <div class="preview-img__container">
