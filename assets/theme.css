@@ -6714,6 +6714,8 @@ tfoot td {
   margin: 2rem 0;
 }
 
+.product-card__items
+
 
 @media screen and (max-width: 699px) {
 
@@ -6723,7 +6725,7 @@ tfoot td {
   }
 
   .outfit-collection__header {
-    font-size: 1;
+    font-size: 1rem;
   }
 
   .product-preview__container {
