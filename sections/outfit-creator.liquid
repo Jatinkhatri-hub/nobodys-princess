@@ -14,7 +14,7 @@
       <div class="outfit-creator__container gap-12">
         <div class="product-categories__container">
           <div>
-            {}
+            {%  capture product_list %}  {% endcapture %} 
 
             {% render 'outfit-collection'
               , heading: section.settings.collection_heading %}
