@@ -50,7 +50,13 @@
 
               {%  capture accordion_content %} 
                 <product-list class="product-list justify-start">
-                  
+                  {% for product in collection.products limit: product_count %}
+                    {% render 'outfit-creator-product-card', reveal: true, loop_index: forloop.index0, block: block %}
+                  {% else %}
+                   {% for i in (1..product_count) %}
+                    {% render 'outfit-creator-placeholder-card', reveal: true, loop_index: forloop.index0 %}
+                   {% endfor %}
+                  {% endfor %}
                 </product-list>
               {% endcapture %} 
             {% endfor %}
