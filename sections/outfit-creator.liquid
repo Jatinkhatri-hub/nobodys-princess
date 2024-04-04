@@ -54,7 +54,7 @@
                     {% render 'product-card', reveal: true, loop_index: forloop.index0, block: block %}
                   {% else %}
                    {% for i in (1..product_count) %}
-                    {% render 'placeholder', reveal: true, loop_index: forloop.index0 %}
+                    {% render 'product-card-placeholder', reveal: true, loop_index: forloop.index0 %}
                    {% endfor %}
                   {% endfor %}
                 </product-list>
