@@ -68,7 +68,7 @@
     {%- assign products_count = block.settings.products_count -%}
 
     {%- capture accordion_content -%}
-      <product-list class="product-list  {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center">
+      <product-list class="product-list product-card-size {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center">
         {%- for product in collection.products limit: products_count -%}
           {%- render 'product-card', product: product, reveal: false, hide_product_information: section.settings.hide_product_information, block: block -%}
         {%- else -%}
