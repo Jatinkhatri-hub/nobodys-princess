@@ -13,7 +13,7 @@ This component is used to render a single product as a card with only the produc
   --------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
-  {%- if product.media.size > 0 -%}
+  
     <div class="product-card__figure">
       <a href="{{ product.url }}" class="product-card__media" data-instant>
         {%- capture sizes -%}
@@ -24,7 +24,6 @@ This component is used to render a single product as a card with only the produc
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
       </a>
     </div>
-  {%- endif -%}
 
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
