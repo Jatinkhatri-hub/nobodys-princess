@@ -2,7 +2,8 @@
 
     <div class="product-card__figure">
         <a href="#" class="product-card__media">
-            {%  capture  product_placeholder %}product-{{ loop_index |  modulo: 6 | plus: 1 |  default: 1 }} {% endcapture %} 
+            {%  capture  product_placeholder %}product-{{ loop_index |  modulo: 6 | plus: 1 |  default: 1 }}{% endcapture %}
+                {{ product_placeholder }} 
         </a>
 
     </div>
