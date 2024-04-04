@@ -6710,6 +6710,13 @@ tfoot td {
   grid-template-columns: 1fr 20px;
 }
 
+.outfit-creator-container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  margin: auto;
+  max-width: 1360px;
+}
+
 
 
 
