@@ -1,3 +1,20 @@
+{% if section.blocks.size > 0 %}
+  <style>
+    #shopify-section-{{ section.id }} {
+      --product-list-items-per-row: {{ section.settings.products_per_row_mobile | times: 1 }};
+      --product-list-horizontal-spacing-factor: {{ section.settings.horizontal_spacing_factor }};
+      --product-list-vertical-spacing-factor: {{ section.settings.vertical_spacing_factor }};
+    }
+
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        --product-list-items-per-row: {{ section.settings.product_per_row_desktop }};
+      }
+    }
+  </style>
+
+
+
 {% assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 %}
 
 <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
@@ -31,7 +48,11 @@
               {%  assign collection = block.settings.collection %}
               {%  assign product_count = block.settings.products_count %}
 
-              
+              {%  capture accordion_content %} 
+                <product-list class="product-list justify-start">
+                  
+                </product-list>
+              {% endcapture %} 
             {% endfor %}
    
           </div>
@@ -57,6 +78,7 @@
     </div>
   </div>
 </div>
+{% endif %}
 
 
 {% schema %}
