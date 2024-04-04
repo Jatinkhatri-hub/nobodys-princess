@@ -15,7 +15,7 @@
     <div class="outfit-creator">
         <div class="outfit-creator__container gap-12">
           <div class="product-categories__container">
-            {% for block in section.blocks %}
+            {% comment %} {% for block in section.blocks %}
               {% case block.type %}
               {% when 'section' %}
             <div {{ block.shopify_attributes }}>
@@ -26,7 +26,25 @@
               , product_price: block.settings.product_price %} 
             </div>
             {% endcase %}
-          {% endfor %}
+          {% endfor %} {% endcomment %}
+            {%- for block in section.blocks -%}
+    {%- assign collection = block.settings.collection -%}
+    {%- assign products_count = block.settings.products_count -%}
+
+    {%- capture accordion_content -%}
+      <product-list class="product-list {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center">
+        {%- for product in collection.products limit: products_count -%}
+          {%- render 'product-card', product: product, reveal: false, hide_product_information: section.settings.hide_product_information, block: block -%}
+        {%- else -%}
+          {%- for i in (1..products_count) -%}
+            {%- render 'product-card-placeholder', reveal: false, loop_index: forloop.index0, hide_product_information: section.settings.hide_product_information -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      </product-list>
+    {%- endcapture -%}
+
+    {%- render 'accordion', title: block.settings.title, content: accordion_content, open: forloop.first, block: block -%}
+  {%- endfor -%}
           </div>
           <div class="product-preview__container">
             <div class="preview-img__container">
