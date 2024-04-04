@@ -51,10 +51,10 @@
               {%  capture accordion_content %} 
                 <product-list class="product-list justify-start">
                   {% for product in collection.products limit: product_count %}
-                    {% render 'ourfit-creator-product-card', reveal: true, loop_index: forloop.index0, block: block %}
+                    {% render 'product-card', reveal: true, loop_index: forloop.index0, block: block %}
                   {% else %}
                    {% for i in (1..product_count) %}
-                    {% render 'outfit-creator-placeholder-card', reveal: true, loop_index: forloop.index0 %}
+                    {% render '', reveal: true, loop_index: forloop.index0 %}
                    {% endfor %}
                   {% endfor %}
                 </product-list>
