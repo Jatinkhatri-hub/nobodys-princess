@@ -60,7 +60,7 @@
                 </product-list>
               {% endcapture %}
               
-              {% render 'accordion', title: block.settings.title, content: accordion_content, forloop %}
+              {% render 'accordion', title: block.settings.title, content: accordion_content, open: forloop.first, block: block %}
             {% endfor %}
    
           </div>
