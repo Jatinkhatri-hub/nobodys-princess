@@ -17,14 +17,9 @@ This component is used to render a single product as a card with only the produc
     <div class="product-card__figure">
       <a href="{{ product.url }}" class="product-card__media" data-instant>
         {%- capture sizes -%}
-        {%  comment  %}  (max-width: 699px) 74vw, (max-width: 999px) 38vw, calc((100vw - 96px) / 3 - (24px / 3 * 2))
-        {%- endcapture -%} {% endcomment %}
-         {%- if stacked -%}
-            (max-width: 699px) calc(100vw / {{ section.settings.products_per_row_mobile }}), (max-width: 999px) calc(100vw / {{ 3 | at_most: section.settings.products_per_row_desktop | default: 3 }} - 64px), calc((100vw - 96px) / {{ section.settings.products_per_row_desktop | default: 3 }} - (24px / {{ section.settings.products_per_row_desktop | default: 3 }} * {{ section.settings.products_per_row_desktop | default: 3 | minus: 1 }}))
-          {%- else -%}
-            (max-width: 699px) 74vw, (max-width: 999px) 38vw, calc((100vw - 96px) / {{ section.settings.products_per_row_desktop | default: 3 }} - (24px / {{ section.settings.products_per_row_desktop | default: 3 }} * {{ section.settings.products_per_row_desktop | default: 3 | minus: 1 }}))
-          {%- endif -%}
-          {% endcapture %}
+          (max-width: 699px) 74vw, (max-width: 999px) 38vw, calc((100vw - 96px) / 3 - (24px / 3 * 2))
+        {%- endcapture -%}
+
         {%- capture main_image_classes -%}product-card__image product-card__image--primary {% if settings.product_image_aspect_ratio contains 'crop' %}object-cover{% endif %} aspect-{{ settings.product_image_aspect_ratio | split: '_' | first }}{%- endcapture -%}
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
       </a>
