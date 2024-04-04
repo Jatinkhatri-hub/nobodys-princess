@@ -6690,7 +6690,7 @@ tfoot td {
 
 .outfit-creator {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: ;
   margin-top: 2rem;
 }
 
