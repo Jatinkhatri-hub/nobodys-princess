@@ -79,7 +79,7 @@
       </product-list>
     {%- endcapture -%}
 
-    {%- render 'accordion', title: block.settings.title, content: accordion_content, open: forloop.first, block: block -%}
+    {%- render 'accordion', title: block.settings.collection_header, content: accordion_content, open: forloop.first, block: block -%}
   {%- endfor -%}
 {%- endif -%}
    
