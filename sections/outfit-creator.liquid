@@ -29,7 +29,7 @@
           {% endfor %}  {% endcomment %}
             {% for block in section.blocks %}
               {%  assign collection = block.settings.collection %}
-              {%  assign product_count = block.settings %} %}
+              {%  assign product_count = block.settings.products_count %}
             {% endfor %}
    
           </div>
