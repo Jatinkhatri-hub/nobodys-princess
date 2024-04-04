@@ -6718,7 +6718,7 @@ tfoot td {
 }
 
 .product-card-size {
-  
+  grid-template-columns: repeat( );
 }
 
 
