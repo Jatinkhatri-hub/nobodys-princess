@@ -62,6 +62,26 @@
               
               {% render 'accordion', title: block.settings.collection_heading, content: accordion_content, open: forloop.first, block: block %}
             {% endfor %} {% endcomment %}
+            {%- if section.blocks.size > 0 -%}
+  {%- for block in section.blocks -%}
+    {%- assign collection = block.settings.collection -%}
+    {%- assign products_count = block.settings.products_count -%}
+
+    {%- capture accordion_content -%}
+      <product-list class="product-list {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center">
+        {%- for product in collection.products limit: products_count -%}
+          {%- render 'product-card', product: product, reveal: false, hide_product_information: section.settings.hide_product_information, block: block -%}
+        {%- else -%}
+          {%- for i in (1..products_count) -%}
+            {%- render 'product-card-placeholder', reveal: false, loop_index: forloop.index0, hide_product_information: section.settings.hide_product_information -%}
+          {%- endfor -%}
+        {%- endfor -%}
+      </product-list>
+    {%- endcapture -%}
+
+    {%- render 'accordion', title: block.settings.title, content: accordion_content, open: forloop.first, block: block -%}
+  {%- endfor -%}
+{%- endif -%}
    
           </div>
           <div class="product-preview__container">
