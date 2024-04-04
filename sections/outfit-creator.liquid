@@ -44,7 +44,7 @@
             </div>
             {% endcase %}
           {% endfor %}  {% endcomment %}
-            {% for block in section.blocks %}
+            {% comment %} {% for block in section.blocks %}
               {%  assign collection = block.settings.collection %}
               {%  assign product_count = block.settings.products_count %}
 
@@ -61,7 +61,7 @@
               {% endcapture %}
               
               {% render 'accordion', title: block.settings.collection_heading, content: accordion_content, open: forloop.first, block: block %}
-            {% endfor %}
+            {% endfor %} {% endcomment %}
    
           </div>
           <div class="product-preview__container">
