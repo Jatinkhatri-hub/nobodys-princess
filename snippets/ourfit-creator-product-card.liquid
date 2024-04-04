@@ -1,0 +1,46 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+SIMPLE PRODUCT CARD
+----------------------------------------------------------------------------------------------------------------------
+
+This component is used to render a single product as a card with only the product name and price.
+{%- endcomment -%}
+
+<product-card class="product-card" handle="{{ product.handle | escape }}">
+  {%- comment -%}
+  --------------------------------------------------------------------------------------------------------------------
+  PRODUCT MEDIA
+  --------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  {%- if product.media.size > 0 -%}
+    <div class="product-card__figure">
+      <a href="{{ product.url }}" class="product-card__media" data-instant>
+        {%- capture sizes -%}
+          (max-width: 699px) 74vw, (max-width: 999px) 38vw, calc((100vw - 96px) / 3 - (24px / 3 * 2))
+        {%- endcapture -%}
+
+        {%- capture main_image_classes -%}product-card__image product-card__image--primary {% if settings.product_image_aspect_ratio contains 'crop' %}object-cover{% endif %} aspect-{{ settings.product_image_aspect_ratio | split: '_' | first }}{%- endcapture -%}
+        {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
+      </a>
+    </div>
+  {%- endif -%}
+
+  {%- comment -%}
+  --------------------------------------------------------------------------------------------------------------------
+  PRODUCT INFO
+  --------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  <div class="product-card__info empty:hidden">
+    <div class="v-stack justify-items-center gap-1">
+      {%- if show_title -%}
+        <a href="{{ product.url }}" class="product-title {% if settings.product_title_max_lines > 0 %}line-clamp{% endif %}" {% if settings.product_title_max_lines > 0 %}style="--line-clamp-count: {{ settings.product_title_max_lines }}"{% endif %} data-instant>
+          {{- product.title -}}
+        </a>
+      {%- endif -%}
+
+      {%- render 'price-list', product: product, context: 'card' -%}
+    </div>
+  </div>
+</product-card>
