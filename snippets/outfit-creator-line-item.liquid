@@ -15,8 +15,10 @@
                 {% endif %}
                 <div class="variant_dropdown">
                     <span>Select a Style</span>
-                    {%  render 'icon' %} %}
-                </div>
+                    {%- render 'icon' with 'minus'
+                        , width: 12
+                    , direction_aware: true -%}
+              </div>
                 
 
 
