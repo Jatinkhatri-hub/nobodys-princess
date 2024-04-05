@@ -1,4 +1,4 @@
-<cart-drawer class="cart-drawer drawer ">
+<cart-drawer class="cart-drawer drawer  {% if cart.empty? %}drawer--center-body{% endif %} color-scheme color-scheme--{{ section.settings.color_scheme.id }}" initial-focus="false" handle-editor-events></cart-drawer>">
 
 </cart-drawer>
 
