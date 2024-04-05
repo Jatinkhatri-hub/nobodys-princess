@@ -9,7 +9,7 @@
                 {% if line_item.url !=blank %}
                     <a href="{{ line_item.url }}" class="h6">{{ line_item.product.title |  default line_item.title }}</a>
                 {% else %} 
-                    <p class="h"></p>
+                    <p class="h6">{{}}</p>
                 {% endif %}
 
             </div>
