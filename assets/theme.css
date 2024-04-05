@@ -6753,7 +6753,8 @@ product-list__container {
 }
 
 .variant-picker {
-  display: ;
+  display: flex;
+  flex-direction: column;
 }
 
 
