@@ -6754,7 +6754,7 @@ product-list__container {
 
 .variant-picker {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 
