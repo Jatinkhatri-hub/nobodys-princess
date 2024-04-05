@@ -6756,7 +6756,8 @@ product-list__container {
   display: flex;
   flex-direction: row;
   border: 1px solid #5c5c5c;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  padding: 
 }
 
 
