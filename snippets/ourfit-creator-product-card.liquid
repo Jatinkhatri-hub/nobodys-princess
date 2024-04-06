@@ -54,11 +54,12 @@ This component is used to render a single product as a card with only the produc
           {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
         </div>
       {%- endif -%}
+      <div>
       <button class="outfit-selector__btn">
         <span>SELECTED</span>
         {%  render 'icon' with 'plus' %} 
       </button>
-      
+      </div>
     </div>
     <div class="product-card__info justify-start gap-0.5">
       <p class="outfit-card__title">{{ product.title }}</p>
