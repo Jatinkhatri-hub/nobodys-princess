@@ -6727,6 +6727,7 @@ tfoot td {
   font-weight: 700;
   color: gray;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 
