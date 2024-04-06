@@ -6818,6 +6818,7 @@ product-list__container {
 .outfit-selector__btn-wrapper {
   position: absolute;
   bottom: 0;
+  width: 100%;
 }
 
 .outfit-card__image-wrapper {
