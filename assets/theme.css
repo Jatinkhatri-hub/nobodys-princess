@@ -6815,7 +6815,9 @@ product-list__container {
   margin-top: 0.2rem;
 }
 
-.outfit-selector
+.outfit-selector__btn-wrapper {
+  position: absolute
+}
 
 
 
