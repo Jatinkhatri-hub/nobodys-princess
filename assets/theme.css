@@ -6857,7 +6857,7 @@ product-list__container {
 .product-preview__btn-group {
   display: grid;
   gap: 1rem;
-  background-color: #;
+  background-color: #e3e5e7;
   padding: 2rem 3rem ;
 }
 
