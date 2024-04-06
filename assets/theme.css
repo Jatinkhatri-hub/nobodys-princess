@@ -6776,7 +6776,7 @@ product-list__container {
 .variant_dropdown {
   display: flex;
   flex-direction: row;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .help-contianer {
