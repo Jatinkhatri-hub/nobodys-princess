@@ -72,7 +72,7 @@
     {%- capture accordion_content -%}
       <product-list class="product-list product-card-size {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center">
         {%- for product in collection.products limit: products_count -%}
-          {%- render 'outfit-creatorproduct-card', product: product, reveal: false, hide_product_information: section.settings.hide_product_information, block: block -%}
+          {%- render 'outfit-creator-product-card', product: product, reveal: false, hide_product_information: section.settings.hide_product_information, block: block -%}
         {%- else -%}
           {%- for i in (1..products_count) -%}
             {%- render 'product-card-placeholder', reveal: false, loop_index: forloop.index0, hide_product_information: section.settings.hide_product_information -%}
