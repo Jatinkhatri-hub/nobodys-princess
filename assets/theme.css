@@ -6724,7 +6724,8 @@ tfoot td {
 .outfit-name-price {
   font-family: bicyclette, sans-serif;
   font-size: 0.5rem;
-  font
+  font-weight: 900;
+  text-col
 }
 
 
