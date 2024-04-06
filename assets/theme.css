@@ -6823,6 +6823,11 @@ product-list__container {
 
 }
 
+.outfit-card__image-wrapper:hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .line-item-info__container {
   display: flex;
   flex-direction: column;
