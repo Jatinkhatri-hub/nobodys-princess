@@ -17,7 +17,7 @@ Supported variables
 * hide_product_information: if set to true, all content (vendor, badge, title...) are not rendered, to create image-based grid
 {%- endcomment -%}
 
-{%- liquid
+{% comment %} {%- liquid
   if hide_product_information
     assign show_rating = false
     assign show_vendor = false
@@ -31,7 +31,7 @@ Supported variables
   endif
 -%}
 
-<product-card class="product-card" {% if reveal %}reveal-on-scroll="true"{% endif %}>
+<product-card class="product-card" {% if reveal %}reveal-on-scroll="true"{% endif %}> {% endcomment %}
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT MEDIA
