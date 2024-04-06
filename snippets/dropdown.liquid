@@ -7,9 +7,10 @@
             , width: 12
             , direction_aware: true -%}
         </div>
-        {}
-        <div class="help-contianer">
-            <a href="#">Not sure?</a>
-            <a href="#">View Size Charts</a>
-        </div>
+        {% if show_help %}
+            <div class="help-contianer">
+                <a href="#">Not sure?</a>
+                <a href="#">View Size Charts</a>
+            </div>
+        {% endif %}
 </div>
