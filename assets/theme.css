@@ -6777,7 +6777,9 @@ product-list__container {
   display: grid;
 }
 
-
+.help-contianer {
+  font-size: 1rem;
+}
 
 
 
