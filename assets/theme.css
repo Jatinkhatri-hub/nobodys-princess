@@ -6726,7 +6726,7 @@ tfoot td {
 }
 
 .outfit-card__title {
-  text
+  text-align: start;
 }
 
 .product-card-size {
