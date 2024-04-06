@@ -6813,6 +6813,7 @@ product-list__container {
   transform: translateX(4px) translateY(100%);
   transition: transform .1s ease-in-out; 
   margin-top: 0.2rem;
+  font-weight: ;
 }
 
 .outfit-selector__btn-wrapper {
