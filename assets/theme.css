@@ -6773,6 +6773,11 @@ product-list__container {
   padding-right: 1rem;
 }
 
+.dropdown-container {
+  display: flex;
+  flex-direction: ;
+}
+
 
 
 
