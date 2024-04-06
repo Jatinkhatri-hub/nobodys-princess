@@ -6778,6 +6778,7 @@ product-list__container {
 }
 
 .help-contianer {
+  display: ;
   font-size: 0.6rem;
   text-decoration: underline;
 }
