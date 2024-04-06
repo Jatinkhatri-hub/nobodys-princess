@@ -6814,8 +6814,8 @@ product-list__container {
 
 
 .outfit-card__image-wrapper:hover {
-  border: 1px solid #fa51a2;
-  
+  border: 3px solid #fa51a2;
+
 }
 
 .line-item-info__container {
