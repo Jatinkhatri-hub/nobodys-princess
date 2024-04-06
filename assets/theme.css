@@ -6790,7 +6790,8 @@ product-list__container {
 .line-item-info__container {
   display: flex;
   flex-direction: column;
-  justify-content: s;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .outfit-remove__btn {
