@@ -14,7 +14,7 @@
                     <p > Aqua{% comment %}{{ line_item.product.title |  default line_item.title }} {% endcomment %}</p>
                 {% endif %}
                 <div class="variant_dropdown">
-                    <div>
+                    <div class="dropdown-container">
                     <span class="dropdown_text">Select a Style</span>
                     {%- render 'icon' with 'arrow-down'
                         , width: 12
