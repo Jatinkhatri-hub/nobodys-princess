@@ -6717,6 +6717,14 @@ tfoot td {
   max-width: 1360px;
 }
 
+outfit-card__price {
+  font-family: bicyclette, sans-serif;
+  font-weight: 800;
+  font-size: 0.6rem;
+  width: 100%;
+  text-align: start;
+}
+
 .product-card-size {
   grid-template-columns: repeat( auto-fill, 130px);
 }
