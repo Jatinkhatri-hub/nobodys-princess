@@ -6722,7 +6722,8 @@ tfoot td {
 }
 
 .outfit-name-price {
-  font-family: bicyclette;
+  font-family: bicyclette, sans-serif;
+  font-size: 0.;
 }
 
 
