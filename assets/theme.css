@@ -6802,12 +6802,13 @@ product-list__container {
 .outft-selector__btn {
   background-color: #fa51a2;
   width: 100%;
-  opacity: 0;
+  
   border: none; 
 }
 
 .outfit-card__image-wraper:hover {
-  border: 1px solid #fa51a2
+  border: 1px solid #fa51a2;
+  
 }
 
 .line-item-info__container {
