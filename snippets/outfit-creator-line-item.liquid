@@ -6,12 +6,12 @@
     <div class="line-item-info">
         <div class="v-stack justify-items-start gap2">
             <div class="v-stack justify-items-start gap-1">
-                <p class="h5 ">TOP:</p>
+                <p class="h5">TOP:</p>
                 <p class="">Anna Jacket - $399</p>
                 {% if image !=blank %}
                 <a href="{{ line_item.url }}" class="h5"> Aqua {%  comment  %} {{ line_item.product.title |  default line_item.title }}{% endcomment %}</a>
                 {% else %} 
-                    <p class="h5"> Aqua{% comment %}{{ line_item.product.title |  default line_item.title }} {% endcomment %}</p>
+                    <p class=""> Aqua{% comment %}{{ line_item.product.title |  default line_item.title }} {% endcomment %}</p>
                 {% endif %}
                 <div class="variant_dropdown">
                     <span>Select a Style</span>
