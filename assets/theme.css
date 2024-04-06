@@ -6805,8 +6805,8 @@ product-list__container {
   border: none; 
 }
 
-.outfit-card__image-wraper {
-  border: 1px solid #
+.outfit-card__image-wraper:hover {
+  border: 1px solid #fa51a2
 }
 
 .line-item-info__container {
