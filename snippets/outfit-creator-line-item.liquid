@@ -2,7 +2,7 @@
     {% if image != blank %}
         {{ image | image_url: width: image.width |  image_tag: loading: 'lazy', sizes: '(max-width: 699px) 70px, 120px', widths: '70, 120, 140, 210, 240, 360', class: 'line-item__media' }}
     {% endif %} 
-    <div class="">
+    <div class="line-item-info__container">
     <div class="line-item-info">
         <div class="v-stack justify-items-start gap2">
             <div class="v-stack justify-items-start gap-0.5">
