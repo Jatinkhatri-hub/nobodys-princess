@@ -6774,11 +6774,11 @@ product-list__container {
 }
 
 .variant-dropdown {
-  display: grid;
+  display: flex;
+  
 }
 
 .help-contianer {
-  display: ;
   font-size: 0.6rem;
   text-decoration: underline;
 }
