@@ -6782,7 +6782,7 @@ product-list__container {
   font-size: 0.6rem;
   text-decoration: underline;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
 }
 
