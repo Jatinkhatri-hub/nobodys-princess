@@ -6725,7 +6725,9 @@ tfoot td {
   text-align: start;
 }
 
-.outfit
+.outfit-card__title {
+  text
+}
 
 .product-card-size {
   grid-template-columns: repeat( auto-fill, 130px);
