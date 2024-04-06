@@ -17,7 +17,7 @@ Supported variables
 * hide_product_information: if set to true, all content (vendor, badge, title...) are not rendered, to create image-based grid
 {%- endcomment -%}
 
-{% comment %} {%- liquid
+{%- liquid
   if hide_product_information
     assign show_rating = false
     assign show_vendor = false
@@ -31,26 +31,26 @@ Supported variables
   endif
 -%}
 
-<product-card class="product-card" {% if reveal %}reveal-on-scroll="true"{% endif %}> {% endcomment %}
+<product-card class="product-card" {% if reveal %}reveal-on-scroll="true"{% endif %}>
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT MEDIA
   --------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
-  {% comment %} <div class="product-card__figure">
+  <div class="product-card__figure">
     <a href="#" class="product-card__media">
       {%- capture product_placeholder -%}product-{{ loop_index | modulo: 6 | plus: 1 | default: 1 }}{%- endcapture -%}
       {{- product_placeholder | placeholder_svg_tag: 'product-card__image product-card__image--primary placeholder' -}}
     </a>
-  </div> {% endcomment %}
+  </div>
 
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT INFO
   --------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
-{% comment %} 
+
   <div class="product-card__info empty:hidden">
     {%- assign text_class = '' -%}
 
@@ -86,18 +86,4 @@ Supported variables
       {%- render 'product-rating', show_placeholder: true, display_mode: settings.product_rating_mode -%}
     {%- endif -%}
   </div>
-</product-card> {% endcomment %}
-<div class="product-card" style="max-width: 120px;">
-  <a href="#" class="product-card__link">
-    <div class="product-card__image-wrapper">
-      {%- capture product_placeholder -%}product-{{ loop_index | modulo: 6 | plus: 1 | default: 1 }}{%- endcapture -%}
-      {{- product_placeholder | placeholder_svg_tag: 'product-card__image product-card__image--primary placeholder' -}}
-    </div>
-    <div class="product-card__info">
-      <h3 class="product-card__title text-truncate">{{ 'general.onboarding.product_title' | t }}</h3>
-      <div class="product-card__price">
-        <span class="product-card__selling-price">{{ 12.34 | money }}</span>
-      </div>
-    </div>
-  </a>
-</div>
+</product-card>
