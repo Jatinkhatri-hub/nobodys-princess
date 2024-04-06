@@ -6,13 +6,13 @@ SIMPLE PRODUCT CARD
 This component is used to render a single product as a card with only the product name and price.
 {%- endcomment -%}
 
-<product-card class="product-card" handle="{{ product.handle | escape }}">
+{% comment %} <product-card class="product-card" handle="{{ product.handle | escape }}"> {% endcomment %}
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT MEDIA
   --------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
-
+{% comment %} 
   
     <div class="product-card__figure">
       <a href="{{ product.url }}" class="product-card__media" data-instant>
@@ -23,14 +23,14 @@ This component is used to render a single product as a card with only the produc
         {%- capture main_image_classes -%}product-card__image product-card__image--primary {% if settings.product_image_aspect_ratio contains 'crop' %}object-cover{% endif %} aspect-{{ settings.product_image_aspect_ratio | split: '_' | first }}{%- endcapture -%}
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
       </a>
-    </div>
+    </div> {% endcomment %}
 
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT INFO
   --------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
-
+{% comment %} 
   <div class="product-card__info empty:hidden">
     <div class="v-stack justify-items-start gap-1">
       {%- if show_title -%}
@@ -42,4 +42,4 @@ This component is used to render a single product as a card with only the produc
       {%- render 'price-list', product: product, context: 'card' -%}
     </div>
   </div>
-</product-card>
+</product-card> {% endcomment %}
