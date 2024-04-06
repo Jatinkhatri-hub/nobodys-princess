@@ -6773,7 +6773,7 @@ product-list__container {
   padding-right: 1rem;
 }
 
-.variant-dropdown {
+.variant_dropdown {
   display: flex;
   flex-direction: row;
 }
@@ -6781,8 +6781,9 @@ product-list__container {
 .help-contianer {
   font-size: 0.6rem;
   text-decoration: underline;
-  display: gird;
-  
+  display: flex;
+  flex-direction: row;
+
 }
 
 
