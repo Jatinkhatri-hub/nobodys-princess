@@ -6775,7 +6775,7 @@ product-list__container {
 
 .dropdown-container {
   display: flex;
-  flex-direction: ;
+  flex-direction: row;
 }
 
 
