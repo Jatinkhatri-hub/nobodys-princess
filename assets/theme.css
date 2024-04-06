@@ -6806,9 +6806,9 @@ product-list__container {
   display: flex;
   flex-direction: row;
   color: white;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; 
-  
+
 }
 
 .outfit-card__image-wrapper:hover {
