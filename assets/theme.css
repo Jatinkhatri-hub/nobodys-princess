@@ -6781,6 +6781,8 @@ product-list__container {
 .help-contianer {
   font-size: 0.6rem;
   text-decoration: underline;
+  display: gird;
+  
 }
 
 
