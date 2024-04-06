@@ -6805,7 +6805,9 @@ product-list__container {
   border: none; 
 }
 
-.outfit-card__image
+.outfit-card__image-wraper {
+  border: 1px solid #
+}
 
 .line-item-info__container {
   display: flex;
