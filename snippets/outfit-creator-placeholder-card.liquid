@@ -18,3 +18,17 @@
     </div>
 
 </product-card> {% endcomment %}
+<div class="product-card" style="max-width: 120px;">
+  <a href="#" class="product-card__link">
+    <div class="product-card__image-wrapper">
+      {%- capture product_placeholder -%}product-{{ loop_index | modulo: 6 | plus: 1 | default: 1 }}{%- endcapture -%}
+      {{- product_placeholder | placeholder_svg_tag: 'product-card__image product-card__image--primary placeholder' -}}
+    </div>
+    <div class="product-card__info">
+      <h3 class="product-card__title text-truncate">{{ 'general.onboarding.product_title' | t }}</h3>
+      <div class="product-card__price">
+        <span class="product-card__selling-price">{{ 12.34 | money }}</span>
+      </div>
+    </div>
+  </a>
+</div>
