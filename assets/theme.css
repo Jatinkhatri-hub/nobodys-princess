@@ -6774,7 +6774,8 @@ product-list__container {
 }
 
 .variant-dropdown {
-  display: grid
+  display: grid;
+  
 }
 
 
