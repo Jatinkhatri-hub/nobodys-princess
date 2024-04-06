@@ -58,9 +58,7 @@ This component is used to render a single product as a card with only the produc
     <div class="product-card__info">
       <h3 class="product-card__title text-truncate">{{ product.title }}</h3>
       <div class="product-card__price">
-        {%- if product.compare_at_price > product.price -%}
-          <span class="product-card__compare-at-price">{{ product.compare_at_price | money }}</span>
-        {%- endif -%}
+        
         <span class="product-card__title">{{ product.price | money }}</span>
       </div>
     </div>
