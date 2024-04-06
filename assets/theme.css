@@ -6823,7 +6823,7 @@ product-list__container {
 
 }
 
-.outfit-card__image-wrapper:hover {
+.outfit-card__image-wrapper:hover .outfit-selector__btn {
   opacity: 1;
   transform: translateY(0);
 }
