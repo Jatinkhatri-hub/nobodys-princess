@@ -75,7 +75,7 @@
           {%- render 'ourfit-creator-product-card', product: product, block: block -%}
         {%- else -%}
           {%- for i in (1..products_count) -%}
-            {%- render 'outfit-creator-placeholder-card', loop_index: forloop.index0 -%}
+            {%- render 'outfit-creator', reveal: false, loop_index: forloop.index0, hide_product_information: section.settings.hide_product_information -%}
           {%- endfor -%}
         {%- endfor -%}
       </product-list>
