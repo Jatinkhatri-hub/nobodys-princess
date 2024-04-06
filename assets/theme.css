@@ -6796,7 +6796,7 @@ product-list__container {
 
 .outfit-remove__btn {
   border: none;
-  text
+  text-decoration: underline;
   font-size: 0.7rem;
   position: absolute;
 }
