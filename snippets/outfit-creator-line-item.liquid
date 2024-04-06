@@ -9,9 +9,9 @@
                 <p class="h3">TOP:</p>
                 <p class="h6">Anna Jacket - $399</p>
                 {% if image !=blank %}
-                <a href="{{ line_item.url }}" class=""> Aqua {%  comment  %} {{ line_item.product.title |  default line_item.title }}{% endcomment %}</a>
+                <a href="{{ line_item.url }}" class="h10"> Aqua {%  comment  %} {{ line_item.product.title |  default line_item.title }}{% endcomment %}</a>
                 {% else %} 
-                    <p class=""> Aqua{% comment %}{{ line_item.product.title |  default line_item.title }} {% endcomment %}</p>
+                    <p class="h10"> Aqua{% comment %}{{ line_item.product.title |  default line_item.title }} {% endcomment %}</p>
                 {% endif %}
                 <div class="variant_dropdown">
                     <span>Select a Style</span>
