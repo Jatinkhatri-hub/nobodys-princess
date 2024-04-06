@@ -6788,7 +6788,9 @@ product-list__container {
 }
 
 .line-item-info__container {
-  dis
+  display: flex;
+  flex-direction: column;
+  justify-content: s;
 }
 
 .outfit-remove__btn {
