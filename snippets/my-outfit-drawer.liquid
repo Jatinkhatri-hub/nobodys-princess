@@ -12,10 +12,6 @@
 
    <form action="{{ routes.cart_url }}" method="POST" class="cart-drawer__footer" slot="footer">
     <div class="button-group">
-        {%- if section.settings.show_view_cart_button or section.settings.show_checkout_button == false -%}
-          {%- assign view_cart = 'cart.general.view_cart' | t -%}
-          {%- render 'button', href: routes.cart_url, content: view_cart, stretch: true -%}
-        {%- endif -%}
 
         {%- if section.settings.show_checkout_button -%}
           {%- capture checkout_button -%}
