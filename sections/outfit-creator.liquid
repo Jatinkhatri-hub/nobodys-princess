@@ -30,7 +30,7 @@
          %}
     </div>
     {%  render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id, product_image: section.settings.image | image_object %} 
-    {% render 'outfit-creator-line-item', image: section.settings.image %}
+    {% comment %} {% render 'outfit-creator-line-item', image: section.settings.image %} {% endcomment %}
 
     <div class="outfit-creator">
         <div class="outfit-creator__container gap-12">
