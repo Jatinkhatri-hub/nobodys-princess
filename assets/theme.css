@@ -6837,6 +6837,8 @@ product-list__container {
 
 .outfit-card__image-wrapper:hover .outfit-selector__btn-wrapper {
   opacity: 1;
+  transition: all .3s ease-in-out; 
+
  
 }
 
