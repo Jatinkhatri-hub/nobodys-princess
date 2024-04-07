@@ -13,7 +13,7 @@
    <form action="{{ routes.cart_url }}" method="POST" class="cart-drawer__footer" slot="footer">
     <div class="button-group">
 
-        {%- if section.settings.show_checkout_button -%}
+        
           {%- capture checkout_button -%}
             {{- 'cart.general.checkout' | t -}}
 
@@ -23,7 +23,7 @@
           {%- endcapture -%}
 
           {%- render 'button', type: 'submit', content: checkout_button, name: 'checkout', stretch: true -%}
-        {%- endif -%}
+        
       </div>
     </form>
 
