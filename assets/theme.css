@@ -6824,6 +6824,7 @@ product-list__container {
 
 .outfit-card__image-wrapper {
   position: relative;
+  overflow: hidden;
 
 }
 
