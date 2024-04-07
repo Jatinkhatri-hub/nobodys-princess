@@ -2,12 +2,16 @@
 
 <div class="variant_dropdown">
     <div class="dropdown-container">
-        <span class="dropdown_text">Select a Style</span>
+        {% comment %} <span class="dropdown_text">Select a Style</span>
+        {%- render 'icon' with 'arrow-down'
+            , width: 12
+            , direction_aware: true -%} {% endcomment %}
+         <select>
+    <option value="0"><span class="dropdown_text">Select a Style</span>
         {%- render 'icon' with 'arrow-down'
             , width: 12
             , direction_aware: true -%}
-         <select>
-    <option value="0">Select car:</option>
+         <select></option>
     <option value="1">Audi</option>
     <option value="2">BMW</option>
     <option value="3">Citroen</option>
