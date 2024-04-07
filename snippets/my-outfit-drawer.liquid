@@ -5,9 +5,10 @@
     <p class="h5 text-center">{{'cart.general.empty' | t}}</p>
    {% endif %} {% endcomment %}
 
-   
+   <div>
    <div class="cart-drawer__items">
       {% render 'outfit-creator-line-item', image: {{ product_image }} %}
    </div>
+   <div>
 
 </cart-drawer>
