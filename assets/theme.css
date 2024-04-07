@@ -6835,7 +6835,7 @@ product-list__container {
 
 }
 
-.outfit-card__image-wrapper:hover .outfit-selector__btn {
+.outfit-card__image-wrapper:hover .outfit-selector__btn-wrapper {
   opacity: 1;
  
 }
