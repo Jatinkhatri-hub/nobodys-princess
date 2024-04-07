@@ -17,7 +17,7 @@ Supported variables
 {%- endcomment -%}
 
 {% if subheading != blank or heading != blank or content != blank %}
-  <div class="section-header justify-self-{{ text_alignment | default: 'center' }} text-{{ text_alignment | default: 'center' }}">
+  <div class="section-header {{ class }} justify-self-{{ text_alignment | default: 'center' }} text-{{ text_alignment | default: 'center' }}">
     {%- if subheading != blank or heading != blank or content != blank -%}
       <div class="prose">
         {%- if subheading != blank -%}
