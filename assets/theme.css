@@ -6821,6 +6821,8 @@ product-list__container {
   position: absolute;
   bottom: -35px;
   width: 100%;
+  opacity: 0;
+  
 }
 
 .outfit-card__image-wrapper {
