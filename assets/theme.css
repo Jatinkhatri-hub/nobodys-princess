@@ -6735,18 +6735,6 @@ tfoot td {
   letter-spacing: 1px;
 }
 
-
-
-
-
-
-
-
-
-.product-info__container {
-  padding: 1rem 0;
-}
-
 .dropdown-container {
   display: flex;
   flex-direction: row;
