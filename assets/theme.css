@@ -6816,7 +6816,7 @@ product-list__container {
 
 .outfit-selector__btn-wrapper {
   position: absolute;
-  bottom: -35px;
+  bottom: -25px;
   width: 100%;
   opacity: 0;
   transition: all .2s ease-in-out; 
