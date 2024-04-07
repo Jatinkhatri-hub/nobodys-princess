@@ -6819,7 +6819,7 @@ product-list__container {
 
 .outfit-selector__btn-wrapper {
   position: absolute;
-  bottom: 0;
+  bottom: -35px;
   width: 100%;
 }
 
