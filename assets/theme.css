@@ -6700,15 +6700,8 @@ tfoot td {
   grid-template-columns: 1fr minmax(300px , 400px);
 }
 
-.outfit-collection {
-  border-bottom: 1px solid #5c5c5c;
-  margin-bottom: 2rem;
-}
 
-.outfit-collection__header {
-  display: grid;
-  grid-template-columns: 1fr 20px;
-}
+
 
 .outfit-creator-container {
   display: grid;
