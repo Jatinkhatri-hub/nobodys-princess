@@ -1,5 +1,5 @@
 <line-item class="line-item align-start">
-    {% if image != blank %}
+    {% if image != blank and im%}
         {{ image | image_url: width: image.width |  image_tag: loading: 'lazy', sizes: '(max-width: 699px) 70px, 120px', widths: '70, 120, 140, 210, 240, 360', class: 'line-item__media' }}
     {% endif %} 
     <div class="line-item-info__container">
@@ -35,7 +35,7 @@
     </div>
     <div>
         <button class="outfit-remove__btn">Remove</button>
-        </div>
+    </div>
     </div>
 
 </line-item>
