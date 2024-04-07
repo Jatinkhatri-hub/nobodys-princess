@@ -5,5 +5,5 @@
     <p class="h5 text-center">{{'cart.general.empty' | t}}</p>
    {% endif %}
 
-   {% render 'outfit-creator-line-item',  %}
+   {% render 'outfit-creator-line-item', image: {{ image }} %}
 </cart-drawer>
