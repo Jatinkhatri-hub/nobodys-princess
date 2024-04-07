@@ -43,7 +43,7 @@
             <div class="featured-collections-carousel__item {% if forloop.first %}is-selected{% endif %}" {{ block.shopify_attributes }}>
               {%- capture product_list -%}
                 {%- assign should_reveal = false -%}
-
+                
                 {%- if settings.stagger_products_apparition and forloop.first -%}
                   {%- assign should_reveal = true -%}
                 {%- endif -%}

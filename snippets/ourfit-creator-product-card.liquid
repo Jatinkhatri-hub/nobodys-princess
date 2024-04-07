@@ -1,0 +1,27 @@
+
+
+<div class="product-card" >
+  <a href="{{ product.url }}" class="product-card__link">
+    <div class="outfit-card__image-wrapper">
+      {%- if product.featured_media -%}
+        {{ product.featured_media | img_url: '400x400', scale: 2 | img_tag: product.title }}
+      {%- else -%}
+        <div class="placeholder-background">
+          {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+      {%- endif -%}
+      <div class="outfit-selector__btn-wrapper">
+      <button class="outfit-selector__btn">
+        <span>SELECTED</span>
+        {%  render 'icon' with 'plus' %} 
+      </button>
+      </div>
+    </div>
+    <div class="product-card__info justify-start justify-items-start  gap-0.5">
+      <p class="outfit-card__title">{{ product.title }}</p>
+      <div class="product-card__price">
+        <span class="outfit-card__price">{{ product.price | money }}</span>
+      </div>
+    </div>
+  </a>
+</div>
