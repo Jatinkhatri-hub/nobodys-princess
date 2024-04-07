@@ -6740,21 +6740,8 @@ tfoot td {
 
 
 
-.product-card__item {
-  list-style: none;
-}
 
-.product-list__containers {
-  margin: 2rem 0;
-}
 
-.product-list__container {
-  margin: 0;
-}
-
-.product-img__container {
-  width: 130px;
-}
 
 .product-info__container {
   padding: 1rem 0;
