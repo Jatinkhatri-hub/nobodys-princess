@@ -580,7 +580,7 @@
         "collection_wtJy9T": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "automated-collection",
             "product_count": 8,
             "collection_heading": "Collection Category",
             "product_name": "Product Name",
@@ -599,8 +599,8 @@
         "title": "Outfit creator",
         "content": "",
         "image": "shopify:\/\/shop_images\/Model_1100px.webp",
-        "backgroundOne": "",
-        "backgroundTwo": ""
+        "backgroundOne": "#fa51a2",
+        "backgroundTwo": "#5c5c5c"
       }
     }
   },
