@@ -96,7 +96,7 @@
                 </picture>
                 <div class="product-preview__btn-group">
                   {% render "button", content: "Buy Outfit", href: "#", aria_controls: "my-outfit-button", background: section.settings.backgroundOne, stretch: "true" %}
-                  {% render "button", content: "Clear all selection", href: "#", background: section.settings.backgroundTwo, style: outline, stretch: "true" %}
+                  {% render "button", content: "Clear all selection", href: "#", background: section.settings.backgroundTwo, style: "outline", stretch: "true" %}
                 </div>
               {% else %}
                 {{ 'image' |  placeholder_svg_tag: 'placeholder' }}
