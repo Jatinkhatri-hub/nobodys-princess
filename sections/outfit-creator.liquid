@@ -29,41 +29,10 @@
          %}
     </div>
     {%  render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id, product_image: section.settings.image | image_object %} 
-    {% comment %} {% render 'outfit-creator-line-item', image: section.settings.image %} {% endcomment %}
-
+   
     <div class="outfit-creator">
         <div class="outfit-creator__container gap-12">
           <div class="product-categories__container">
-            {% comment %} {% for block in section.blocks %}
-              {% case block.type %}
-              {% when 'section' %}
-            <div {{ block.shopify_attributes }}>
-              {%  render 'outfit-collection'
-              , heading: block.settings.collection_heading
-              , product_image: block.settings.product_image
-              , product_name: block.settings.product_name
-              , product_price: block.settings.product_price %} 
-            </div>
-            {% endcase %}
-          {% endfor %}  {% endcomment %}
-            {% comment %} {% for block in section.blocks %}
-              {%  assign collection = block.settings.collection %}
-              {%  assign product_count = block.settings.products_count %}
-
-              {%  capture accordion_content %} 
-                <product-list class="product-list justify-start">
-                  {% for product in collection.products limit: product_count %}
-                    {% render 'product-card', reveal: true, loop_index: forloop.index0, block: block %}
-                  {% else %}
-                   {% for i in (1..product_count) %}
-                    {% render 'product-card-placeholder', reveal: true, loop_index: forloop.index0 %}
-                   {% endfor %}
-                  {% endfor %}
-                </product-list>
-              {% endcapture %}
-              
-              {% render 'accordion', title: block.settings.collection_heading, content: accordion_content, open: forloop.first, block: block %}
-            {% endfor %} {% endcomment %}
             {%- if section.blocks.size > 0 -%}
   {%- for block in section.blocks -%}
     {%- assign collection = block.settings.collection -%}
