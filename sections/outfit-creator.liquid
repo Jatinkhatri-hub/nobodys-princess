@@ -28,7 +28,7 @@
         , text_alignment: 'center'
          %}
     </div>
-    {%  render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id, product_image: section.settings.image | image_ob%} 
+    {%  render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id, product_image: section.settings.image | image_object %} 
     {% render 'outfit-creator-line-item', image: section.settings.image %}
 
     <div class="outfit-creator">
