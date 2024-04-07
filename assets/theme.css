@@ -6864,7 +6864,7 @@ product-list__container {
 }
 
 .accordion__button {
-  border
+  border: none;
 }
 
 
