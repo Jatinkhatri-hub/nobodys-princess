@@ -6853,7 +6853,7 @@ tfoot td {
 
   .product-preview__container {
     justify-self: center;
-    margin: 1rem 0; /* Adjust vertical spacing */
+    margin: 1rem 0;
   }
 
   .product-card-size {
