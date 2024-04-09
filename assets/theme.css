@@ -6840,7 +6840,7 @@ tfoot td {
 }
 
 .product-preview__img {
-  
+  z-index: 3;
 }
 
 
