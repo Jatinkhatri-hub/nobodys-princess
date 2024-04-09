@@ -42,7 +42,7 @@
             <div class="preview-img__container">
               {% if section.settings.image != blank  %}
                 <picture> 
-                  {%  assign sizes = "(max-width: 699px) 100vh,50vh" %}   
+                  {%  assign sizes = "(max-width: 699px) 1000px, 111px" %}   
               
                  {{ section.settings.image |  image_url: width: section.settings.image.width |  image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', reveal-on-scroll: section.settings.reveal_on_scroll  }}
                 </picture>
