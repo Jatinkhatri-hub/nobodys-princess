@@ -6965,6 +6965,7 @@ tfoot td {
   }
 
   .popup-container {
+    height: 300px;
     width: 335px;
     padding: 2rem;
   }
