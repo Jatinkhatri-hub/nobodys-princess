@@ -6967,6 +6967,7 @@ tfoot td {
   .popup-container {
     width: 335px;
     padding: 2rem;
+    height: 500px;
   }
 
   .popup-product__img {
