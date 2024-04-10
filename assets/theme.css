@@ -7001,11 +7001,12 @@ tfoot td {
     position: absolute;
     top: 0;
     right: 0;
+    
   }
 
   .preview-clear__btn {
     position: absolute;
-    margin: 
+    margin: 1rem;
   }
 
   
