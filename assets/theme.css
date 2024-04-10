@@ -6870,6 +6870,10 @@ tfoot td {
     margin: 1rem 0;
   }
 
+  .product-preview__img-container {
+
+  }
+
   .product-card-size {
     justify-content: center;
   }
