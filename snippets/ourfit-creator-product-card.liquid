@@ -4,7 +4,7 @@
   <a href="{{ product.url }}" class="product-card__link">
     <div class="outfit-card__image-wrapper">
       {%- if product.featured_media -%}
-        {{ product.featured_media | img_url: '400x400', scale: 2 | img_tag: product.title class="product-image" }}
+        {{ product.featured_media | img_url: '400x400', scale: 2 | img_tag: product.title  }}
       {%- else -%}
         <div class="placeholder-background">
           {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
