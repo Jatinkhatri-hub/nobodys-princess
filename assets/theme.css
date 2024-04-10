@@ -6794,7 +6794,8 @@ tfoot td {
 }
 
 .outfit-card__image-wrapper img {
-
+  max-width: 100%;
+  he
 }
 
 
