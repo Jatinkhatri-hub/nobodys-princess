@@ -6859,7 +6859,7 @@ tfoot td {
   text-align: center;
   padding: 4rem;
   visibility: hidden;
-  transition: transform 0.;
+  transition: transform 0.4s, top 0.4s;
 }
 
 
