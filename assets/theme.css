@@ -6748,7 +6748,7 @@ tfoot td {
   appearance: none;
   -webkit-appearance: none;
   width: 100%;
-  
+
 }
 
 .dropdown_text {
@@ -6973,14 +6973,6 @@ tfoot td {
     width: 335px;
   }
 
-  .product-preview__btn-group {
-    display: block;
-    width: 335px;
-    height: 500px;
-    position: absolute;
-    background-color: transparent;
-
-  }
 
   .popup-container {
     width: 335px;
