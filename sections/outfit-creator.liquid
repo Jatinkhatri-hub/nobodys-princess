@@ -3,25 +3,25 @@
 <div class="section-spacing color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
   <div class="container {%  unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
     <div class="outfit-creator-container">
-    <div class="section-stack border__bottom padding__bottom">
-      {% render 'section-header'
-        , subheading: section.settings.subheading
-        , heading: section.settings.title
-        , content: section.settings.content
-        , text_alignment: 'center'
-         %}
-    </div>
-    {%  render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id, product_image: section.settings.image | image_object %} 
-    {% render 'popup-light-box' %}
-    <div class="outfit-creator">
+      <div class="section-stack border__bottom padding__bottom">
+        {% render 'section-header'
+          , subheading: section.settings.subheading
+          , heading: section.settings.title
+          , content: section.settings.content
+          , text_alignment: 'center'
+        %}
+      </div>
+      {% render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id, product_image: section.settings.image | image_object %}
+      {% render 'popup-light-box' %}
+      <div class="outfit-creator">
         <div class="outfit-creator__container gap-10">
           <div class="product-categories__container">
             {%- if section.blocks.size > 0 -%}
-  {%- for block in section.blocks -%}
-    {%- assign collection = block.settings.collection -%}
-    {%- assign products_count = block.settings.products_count -%}
+              {%- for block in section.blocks -%}
+                {%- assign collection = block.settings.collection -%}
+                {%- assign products_count = block.settings.products_count -%}
 
-    {%- capture accordion_content -%}
+                {%- capture accordion_content -%}
       <product-list class="product-list  product-card-size {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center gap-4">
         {%- for product in collection.products limit: products_count -%}
           {%- render 'ourfit-creator-product-card', product: product, block: block -%}
@@ -32,49 +32,69 @@
         {%- endfor -%}
       </product-list>
     {%- endcapture -%}
+                {%- render 'accordion'
+                  , title: block.settings.collection_heading
+                  , content: accordion_content
+                  , open: forloop.first
+                  , class: 'border__bottom'
+                  , block: block -%}
+              {%- endfor -%}
+            {%- endif -%}
 
-    {%- render 'accordion', title: block.settings.collection_heading, content: accordion_content, open: forloop.first, class: 'border__bottom' ,block: block -%}
-  {%- endfor -%}
-{%- endif -%}
-   
           </div>
           <div class="product-preview__container">
             <div class="preview-img__container">
-              {% if section.settings.image != blank  %}
-                <picture>         
-                  <div  style="position: absolute;">
+              {% if section.settings.image != blank %}
+                <picture>
+                  <div style="position: absolute;">
                     <img srcset="../assets/JacketAqua.png" class="preview-product__image top">
                   </div>
-                  <div  style="position: absolute;">
-                    <img srcset="../assets/PantsRaspberry.png"  class="preview-product__image">
-                  </div>  
-                  {%  assign sizes = "(max-width: 699px) 100vh,50vh" %}   
-              
-                 {{ section.settings.image |  image_url: width: section.settings.image.width |  image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', reveal-on-scroll: section.settings.reveal_on_scroll, class: "preview-image"  }}
-                 
-                 <div class="preview-buy__btn"> 
-                  {% render "button", content: "Buy Outfit", aria_controls: "my-outfit-drawer", background: section.settings.backgroundOne, stretch: "true" %}
-                 </div>
-                 <div class="preview-clear__btn">
-                  {% render "button", content: "Clear", background: section.settings.backgroundTwo, style: "outline", stretch: "true" %}
-                 </div>
+                  <div style="position: absolute;">
+                    <img srcset="../assets/PantsRaspberry.png" class="preview-product__image">
+                  </div>
+                  {% assign sizes = "(max-width: 699px) 100vh,50vh" %}
+
+                  {{ section.settings.image | image_url: width: section.settings.image.width | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', reveal-on-scroll: section.settings.reveal_on_scroll, class: "preview-image" }}
+
+                  <div class="preview-buy__btn">
+                    {% render "button"
+                      , content: "Buy Outfit"
+                      , aria_controls: "my-outfit-drawer"
+                      , background: section.settings.backgroundOne
+                      , stretch: "true" %}
+                  </div>
+                  <div class="preview-clear__btn">
+                    {% render "button"
+                      , content: "Clear"
+                      , background: section.settings.backgroundTwo
+                      , style: "outline"
+                      , stretch: "true" %}
+                  </div>
                 </picture>
-       
+
 
                 <div class="product-preview__btn-group">
-                  {% render "button", content: "Buy Outfit", aria_controls: "my-outfit-drawer", background: section.settings.backgroundOne, stretch: "true" %}
-                  {% render "button", content: "Clear all selection", background: section.settings.backgroundTwo, style: "outline", stretch: "true" %}
+                  {% render "button"
+                    , content: "Buy Outfit"
+                    , aria_controls: "my-outfit-drawer"
+                    , background: section.settings.backgroundOne
+                    , stretch: "true" %}
+                  {% render "button"
+                    , content: "Clear all selection"
+                    , background: section.settings.backgroundTwo
+                    , style: "outline"
+                    , stretch: "true" %}
                 </div>
               {% else %}
-                {{ 'image' |  placeholder_svg_tag: 'placeholder' }}
-              {% endif %} 
+                {{ 'image' | placeholder_svg_tag: 'placeholder' }}
+              {% endif %}
 
             </div>
           </div>
 
         </div>
 
-    </div>
+      </div>
 
     </div>
   </div>
@@ -133,28 +153,24 @@
         "type": "richtext",
         "id": "content",
         "label": "t:global.text.content"
-      },
-      {
+      }, {
         "type": "image_picker",
         "id": "image",
         "label": "Image"
-      },
-      {
+      }, {
         "type": "image_picker",
         "id": "preview_img",
         "label": "Preview Image"
-      },
-      {
+      }, {
         "type": "color",
         "id": "backgroundOne",
         "label": "Button-1 Background"
-      },
-      {
+      }, {
         "type": "color",
         "id": "backgroundTwo",
         "label": "Button-2 Background"
       }
-      
+
     ],
     "blocks": [
       {
@@ -165,8 +181,7 @@
             "type": "collection",
             "id": "collection",
             "label": "Collection"
-          },
-          {
+          }, {
             "type": "inline_richtext",
             "id": "collection_heading",
             "label": "Collection Heading",
