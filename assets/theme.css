@@ -7010,7 +7010,6 @@ tfoot td {
     bottom: 0;
     right: 0;
     margin: 0.5rem;
-
     font-size: 0.8rem;
   }
 
@@ -7020,6 +7019,7 @@ tfoot td {
     top: 0;
     right: 0;
     font-size: 0.8rem;
+    display: block;
   }
 
   
