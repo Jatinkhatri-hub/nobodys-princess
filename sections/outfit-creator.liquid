@@ -42,13 +42,13 @@
             <div class="preview-img__container">
               {% if section.settings.image != blank  %}
                 <picture>         
-                  <div  style="position: absolute;">
+                  {% comment %} <div  style="position: absolute;">
                     <img srcset="../assets/JacketAqua.png" height="480px" width="380px" class="preveiw-product__image">
                   </div>
                   <div  style="position: absolute;">
                     <img srcset="../assets/PantsRaspberry.png" height="480px" width="380px" class="preview-product__image">
                   </div>  
-                  {%  assign sizes = "(max-width: 699px) 100vh,50vh" %}   
+                  {%  assign sizes = "(max-width: 699px) 100vh,50vh" %}    {% endcomment %}
               
                  {{ section.settings.image |  image_url: width: section.settings.image.width |  image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', reveal-on-scroll: section.settings.reveal_on_scroll, class: "preview-image"  }}
                 </picture>
