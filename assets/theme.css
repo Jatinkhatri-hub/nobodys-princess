@@ -6738,6 +6738,7 @@ tfoot td {
 .dropdown-container {
   width: 150px;
   margin-right: 0.5rem;
+  position: relative;
 }
 
 .select-option {
