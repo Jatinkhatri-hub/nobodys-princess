@@ -7005,6 +7005,7 @@ tfoot td {
   }
 
   .preview-buy__btn {
+    display: block;
     position: absolute;
     bottom: 0;
     right: 0;
