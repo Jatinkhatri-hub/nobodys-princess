@@ -6762,14 +6762,14 @@ tfoot td {
   pointer-events: none;
 }
 
-.custom-select::before {
+.dropdown-container::before {
   border-left: var(--size) solid transparent;
   border-right: var(--size) solid transparent;
   border-bottom: var(--size) solid black;
   top: 40%;
 }
 
-.custom-select::after {
+.dropdown-contaie::after {
   border-left: var(--size) solid transparent;
   border-right: var(--size) solid transparent;
   border-top: var(--size) solid black;
