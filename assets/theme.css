@@ -6879,7 +6879,10 @@ tfoot td {
 .popup-btn__group {
   display: flex;
   flex-direction: column;
-  gap: 
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
