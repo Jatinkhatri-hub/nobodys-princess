@@ -6865,6 +6865,10 @@ tfoot td {
   
 }
 
+.popup-container {
+  
+}
+
 .open-popup {
   visibility: visible;
   top: 50%;
