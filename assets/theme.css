@@ -6826,6 +6826,9 @@ tfoot td {
   color: #5c5c5c;
 }
 
+.preview-image
+
+
 .product-preview__btn-group {
   display: grid;
   gap: 1rem;
@@ -6956,7 +6959,7 @@ tfoot td {
     height: 500px;
     position: absolute;
     background-color: transparent;
-    
+
   }
 
   
