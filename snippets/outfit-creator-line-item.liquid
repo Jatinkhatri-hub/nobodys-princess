@@ -11,7 +11,7 @@
                 {% if image !=blank %}
                 <a href="{{ line_item.url }}" > Aqua {%  comment  %} {{ line_item.product.title |  default line_item.title }}{% endcomment %}</a>
                 {% else %} 
-                    <p > Aqua{% comment %}{{ line_item.product.title |  default line_item.title }} {% endcomment %}</p>
+                    <p > Aqua</p>
                 {% endif %}       
                 {%  render 'dropdown', 
                     show_help: true %}
