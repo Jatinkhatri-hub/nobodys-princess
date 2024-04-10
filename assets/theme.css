@@ -6870,10 +6870,10 @@ tfoot td {
   }
 
   .preview-image {
-    height: 480px;
+    height: 580px;
   }
 
-  .preview-product__img {
+  .preview-product__image {
     height: 580px;
   }
 
