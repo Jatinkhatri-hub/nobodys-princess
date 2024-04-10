@@ -6743,7 +6743,7 @@ tfoot td {
 
 .select-option {
   font-weight: 100;
-  font
+  font-family: S;
   width: 100%;
   font-size: 1rem;
   padding: 0.2em;
