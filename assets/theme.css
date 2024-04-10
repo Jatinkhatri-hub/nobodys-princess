@@ -6737,6 +6737,7 @@ tfoot td {
 
 .dropdown-container {
   width: 150px;
+  margin-right: 0.25rem;
 }
 
 .select-option {
@@ -6750,7 +6751,7 @@ tfoot td {
   color: #000;
   cursor: pointer;
   background: #fff;
-  
+
 }
 
 .dropdown_text {
