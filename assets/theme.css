@@ -6749,7 +6749,7 @@ tfoot td {
   border-radius: 0.25rem;
   color: #000;
   cursor: pointer;
-  
+  background: #fff;
 }
 
 .dropdown_text {
