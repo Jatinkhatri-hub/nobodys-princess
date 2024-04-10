@@ -6863,7 +6863,7 @@ tfoot td {
 }
 
 .open-popup {
-  
+  visibility: visible;
 }
 
 
