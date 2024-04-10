@@ -6993,7 +6993,9 @@ tfoot td {
     display: none;
   }
 
-  .preview-buy
+  .preview-buy__btn {
+    display: absolute;
+  }
 
   
 
