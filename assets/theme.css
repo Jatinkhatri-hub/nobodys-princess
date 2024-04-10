@@ -6996,6 +6996,7 @@ tfoot td {
   .preview-buy__btn {
     position: absolute;
     top: 0;
+    right: 0;
   }
 
   .preview-clear__btn {
