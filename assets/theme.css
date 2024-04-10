@@ -6842,6 +6842,7 @@ tfoot td {
 .preview-product__image {
   height: 600px;
   width: 400px;
+  position: relative;
 }
 
 .top {
