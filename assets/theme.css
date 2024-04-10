@@ -6753,8 +6753,8 @@ tfoot td {
 
 }
 
-.custom-select::before,
-.custom-select::after {
+.dropdown-container::before,
+.dropdown-container::after {
   --size: 0.3rem;
   position: absolute;
   content: "";
