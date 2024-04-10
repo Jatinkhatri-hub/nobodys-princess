@@ -6997,7 +6997,9 @@ tfoot td {
     position: absolute;
   }
 
-  .preview-clear__btn
+  .preview-clear__btn {
+    position: absolute;
+  }
 
   
 
