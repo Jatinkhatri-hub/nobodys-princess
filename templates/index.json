@@ -580,7 +580,7 @@
         "collection_KnYbfj": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "automated-collection",
             "collection_heading": "Collection Category",
             "product_name": "Product Name",
             "product_price": "Product Price"
