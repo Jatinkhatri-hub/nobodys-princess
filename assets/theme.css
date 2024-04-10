@@ -6836,12 +6836,12 @@ tfoot td {
 }
 
 .preview-image {
-  height: 7500px;
+  height: 750px;
 }
 
 .preview-product__image {
-  height: 600px;
-  width: 400px;
+  height: 750px;
+  width: 500px;
   position: relative;
 }
 
