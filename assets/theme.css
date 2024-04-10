@@ -6754,14 +6754,7 @@ tfoot td {
 
 }
 
-.dropdown-container::before,
-.dropdown-container::after {
-  --size: 0.3rem;
-  position: absolute;
-  content: "";
-  right: 1rem;
-  pointer-events: none;
-}
+
 
 
 .dropdown_text {
