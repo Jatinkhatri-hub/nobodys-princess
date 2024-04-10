@@ -7008,9 +7008,10 @@ tfoot td {
 
   .preview-clear__btn {
     position: absolute;
-    margin: 1rem;
+    margin: 0.5rem;
     top: 0;
     right: 0;
+    font-size: 0.8rem;
   }
 
   
