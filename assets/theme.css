@@ -6746,7 +6746,9 @@ tfoot td {
 
 .select-option {
   appearance: none;
-  -webkit
+  -webkit-appearance: none;
+  width: 100%;
+  
 }
 
 .dropdown_text {
