@@ -6787,7 +6787,7 @@ tfoot td {
 .outfit-card__image-wrapper {
   position: relative;
   overflow: hidden;
-  height: 200px;
+  height: 190px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6795,7 +6795,7 @@ tfoot td {
 
 .outfit-card__image-wrapper img {
   max-width: 100%;
-  he
+  max-height: 100%;
 }
 
 
