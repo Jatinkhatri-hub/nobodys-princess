@@ -6764,14 +6764,6 @@ tfoot td {
   pointer-events: none;
 }
 
-.dropdown-container::before {
-  border-left: var(--size) solid transparent;
-  border-right: var(--size) solid transparent;
-  border-bottom: var(--size) solid black;
-  top: 40%;
-}
-
-
 
 .dropdown_text {
   padding-right: 1rem;
