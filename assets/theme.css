@@ -6952,7 +6952,9 @@ tfoot td {
 
   .product-preview__btn-group {
     display: none;
-    width: 335px
+    width: 335px;
+    height: 500px;
+    
   }
 
   
