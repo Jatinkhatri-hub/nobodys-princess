@@ -6884,7 +6884,7 @@ tfoot td {
   transform: translate(-50%, -50%) ;
   text-align: center;
   padding: 4rem;
-  visibility: invisible;
+  visibility: hidden;
   transition: transform 0.4s, top 0.4s;
   z-index: 2;
 }
