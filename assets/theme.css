@@ -6989,7 +6989,11 @@ tfoot td {
     font-size: 0.8rem;
   }
 
-  .product
+  .product-preview__btn-group {
+    display: none;
+  }
+
+  .
 
   
 
