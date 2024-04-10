@@ -6993,7 +6993,9 @@ tfoot td {
     display: none;
   }
 
-  .previre
+  .preview-img__container {
+    position: relative
+  }
 
   .preview-buy__btn {
     position: absolute;
@@ -7003,6 +7005,7 @@ tfoot td {
 
   .preview-clear__btn {
     position: absolute;
+    margin: 
   }
 
   
