@@ -6950,7 +6950,10 @@ tfoot td {
     width: 335px;
   }
 
-  .product
+  .product-preview__btn-group {
+    display: none;
+    width
+  }
 
   
   
