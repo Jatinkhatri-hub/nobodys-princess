@@ -6932,7 +6932,9 @@ tfoot td {
   display: none; 
 }
 
-.preview-b
+.preview-clear__btn {
+  display: none;
+}
 
 
 
