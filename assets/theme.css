@@ -6881,7 +6881,7 @@ tfoot td {
   background: #6a5c78;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%) scale(0.1) ;
   text-align: center;
   padding: 4rem;
   visibility: hidden;
