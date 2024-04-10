@@ -6862,7 +6862,11 @@ tfoot td {
   visibility: visible;
   transition: transform 0.4s, top 0.4s;
   z-index: 2;
-  margin-bottom: 1rem;
+}
+
+
+.popup-btn {
+  
 }
 
 
