@@ -6856,7 +6856,9 @@ tfoot td {
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.1);
-  
+  text-align: center;
+  padding: 4rem;
+  vi
 }
 
 
