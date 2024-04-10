@@ -6859,6 +6859,7 @@ tfoot td {
   text-align: center;
   padding: 4rem;
   visibility: hidden;
+  transition: ;
 }
 
 
