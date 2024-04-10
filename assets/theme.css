@@ -7002,6 +7002,7 @@ tfoot td {
     top: 0;
     right: 0;
     margin: 1rem;
+    width: 100px;
   }
 
   .preview-clear__btn {
