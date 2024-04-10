@@ -22,11 +22,11 @@
                 {%- assign products_count = block.settings.products_count -%}
 
                 {%- capture accordion_content -%}
-      <product-list class="product-list  product-card-size {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center gap-4">
-        {%- for product in collection.products limit: products_count -%}
-          {%- render 'ourfit-creator-product-card', product: product, block: block -%}
-        {%- else -%}
-          {%- for i in (1..products_count) -%}
+                  <product-list class="product-list  product-card-size {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center gap-4">
+                    {%- for product in collection.products limit: products_count -%}
+                      {%- render 'ourfit-creator-product-card', product: product, block: block -%}
+                    {%- else -%}
+                    {%- for i in (1..products_count) -%}
             {%- render 'outfit-creator-placeholder-card',loop_index: forloop.index0 -%}
           {%- endfor -%}
         {%- endfor -%}
