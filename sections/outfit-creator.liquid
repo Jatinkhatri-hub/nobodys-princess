@@ -27,9 +27,9 @@
                       {%- render 'ourfit-creator-product-card', product: product, block: block -%}
                     {%- else -%}
                     {%- for i in (1..products_count) -%}
-            {%- render 'outfit-creator-placeholder-card',loop_index: forloop.index0 -%}
-          {%- endfor -%}
-        {%- endfor -%}
+                      %- render 'outfit-creator-placeholder-card',loop_index: forloop.index0 -%}
+                    {%- endfor -%}
+                  {%- endfor -%}
       </product-list>
     {%- endcapture -%}
                 {%- render 'accordion'
