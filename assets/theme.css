@@ -6741,8 +6741,7 @@ tfoot td {
 }
 
 .select-option {
-  appearance: none;
-  -webkit-appearance: none;
+  
   width: 100%;
   font-size: 1rem;
   padding: 0.2em;
