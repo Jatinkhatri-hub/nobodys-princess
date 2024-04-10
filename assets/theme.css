@@ -6912,7 +6912,9 @@ tfoot td {
 
 }
 
-.popup-btn__group b
+.popup-btn__group button {
+  width: 550px
+}
 
 
 
