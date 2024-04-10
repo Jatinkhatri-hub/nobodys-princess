@@ -6954,7 +6954,8 @@ tfoot td {
     display: none;
     width: 335px;
     height: 500px;
-    
+    position: absolute;
+    background-color: ;
   }
 
   
