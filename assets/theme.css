@@ -6928,6 +6928,9 @@ tfoot td {
   font-size: 1.5rem;
 }
 
+.preview-buy__btn {
+  display: no;
+}
 
 
 
