@@ -6769,7 +6769,7 @@ tfoot td {
   top: 40%;
 }
 
-.dropdown-contaie::after {
+.dropdown-container::after {
   border-left: var(--size) solid transparent;
   border-right: var(--size) solid transparent;
   border-top: var(--size) solid black;
