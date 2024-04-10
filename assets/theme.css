@@ -6748,6 +6748,8 @@ tfoot td {
   appearance: none;
   -webkit-appearance: none;
   width: 100%;
+  font-size: 1rem;
+  padding:
 
 }
 
