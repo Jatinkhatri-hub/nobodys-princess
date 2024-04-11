@@ -49,8 +49,8 @@
         "collection_FijVE9": {
           "type": "collection",
           "settings": {
-            "collection": "automated-collection",
-            "products_count": 9,
+            "collection": "snow-pants",
+            "products_count": 8,
             "title": "PANTS",
             "link_url": "shopify:\/\/collections\/snow-pants",
             "link_text": "EXPORE ALL PANTS"
@@ -94,9 +94,9 @@
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 0.2,
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
         "subheading": "MORE OPTIONS. MORE COMFORT. MORE CONFIDENCE."
       }
     },
@@ -597,7 +597,7 @@
         "collection_rF7hJH"
       ],
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "",
         "seperate_section_with_border": true,
         "container_size": "lg",
         "subheading": "",
