@@ -6754,7 +6754,7 @@ tfoot td {
 
 .select-arrow {
   position: absolute;
-  right: 0;
+  right: 1%;
   width: 25px;
 
 }
