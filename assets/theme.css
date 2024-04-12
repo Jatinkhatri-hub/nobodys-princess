@@ -6877,7 +6877,8 @@ tfoot td {
 
 .popup-container {
   width: 100%;
-  height: ;
+  height: 100vh;
+  background-color: #3c5007;
 }
 
 .popup {
