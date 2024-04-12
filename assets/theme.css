@@ -6875,7 +6875,7 @@ tfoot td {
   z-index: 1;
 }
 
-.popup-container {
+.popup {
   width: 650px;
   height: 620px;
   position: absolute;
@@ -6891,7 +6891,7 @@ tfoot td {
 }
 
 
-.popup-container > h1 {
+.popup > h1 {
   margin-bottom: 1rem;
   /* color: white; */
 }
@@ -6981,7 +6981,7 @@ tfoot td {
   }
 
   .popup-container {
-    
+
   }
 
 
