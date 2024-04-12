@@ -6879,7 +6879,7 @@ tfoot td {
   width: 650px;
   height: 620px;
   position: absolute;
-  background: #6a5c78;
+  /* background: #6a5c78; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%)  ;
