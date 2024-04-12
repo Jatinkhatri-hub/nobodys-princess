@@ -6909,7 +6909,7 @@ tfoot td {
   transition: transform 0.4s, top 0.4s;
   z-index: 3;
   justify-self: center;
-  align-self: ;
+  align-self: center;
 }
 
 
