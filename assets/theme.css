@@ -6972,7 +6972,7 @@ tfoot td {
   .product-categories__container {
     overflow-y: auto;
     overflow-x: hidden;
-    
+    height: 920px;
   }
 }
 
