@@ -6692,13 +6692,13 @@ tfoot td {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   margin-top: 2rem;
-  position: relative;
 }
 
 .outfit-creator__container {
   display: grid;
   grid-column: 1fr;
   grid-template-columns: 1fr 500px;
+  
 }
 
 
