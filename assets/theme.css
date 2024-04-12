@@ -6746,7 +6746,10 @@ tfoot td {
 
 }
 
-.dropdown-container::
+.dropdown-container::before,
+.dropdown-container::after {
+  
+}
 
 
 
