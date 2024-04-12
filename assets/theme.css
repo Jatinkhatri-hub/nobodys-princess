@@ -6970,7 +6970,8 @@ tfoot td {
 @media screen and (min-width: 699px) {
 
   .product-categories__container {
-    overflow-y: ;
+    overflow-y: auto;
+    overflow-x: auto;
   }
 }
 
