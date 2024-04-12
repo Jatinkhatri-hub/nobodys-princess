@@ -6720,6 +6720,7 @@ tfoot td {
 
 .outfit-card__title {
   text-align: start;
+  line-height: 1.35rem;
 }
 
 .product-card-size {
