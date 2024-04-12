@@ -6880,6 +6880,7 @@ tfoot td {
   height: 100vh;
   background-color: #3c5077;
   display: flex;
+  align-items: center;
   
 }
 
