@@ -6744,7 +6744,7 @@ tfoot td {
   margin-right: 0.5rem;
   position: relative;
   display: flex;
-  
+  flex-direction: ;
 
 }
 
