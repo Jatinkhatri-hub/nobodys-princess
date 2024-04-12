@@ -6766,7 +6766,7 @@ tfoot td {
   font-family: sans-serif;
   width: 100%;
   font-size: 1rem;
-  color: #5c5c5c;
+  /* color: #5c5c5c; */
   padding: 0.2em 0.25rem;
   /* border: 1px solid #5c5c5c; */
   border-radius: 0.25rem;
