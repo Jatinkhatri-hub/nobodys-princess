@@ -6747,11 +6747,12 @@ tfoot td {
 }
 
 .select-option {
+  appearance: none;
   font-weight: 100;
   font-family: sans-serif;
   width: 100%;
   font-size: 1rem;
-  padding: 0.2em;
+  padding: 0.5em;
   border: 1px solid #5c5c5c;
   border-radius: 0.25rem;
   cursor: pointer;
