@@ -6969,8 +6969,8 @@ tfoot td {
 
 @media screen and (min-width: 699px) {
 
-  product-categories__container {
-    
+  .product-categories__container {
+    overflow-y: ;
   }
 }
 
