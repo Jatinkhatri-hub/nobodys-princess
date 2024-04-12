@@ -11,7 +11,7 @@
           , text_alignment: 'center'
         %}
       </div>
-      {% render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id, product_image: section.settings.image | image_object %}
+      {% render 'my-outfit-drawer', color_scheme: section.settings.color_scheme.id %}
       {% render 'popup-light-box', color_scheme: section.settings.color_scheme, color_scheme_hash: color_scheme_hash %} 
       <div class="outfit-creator">
         <div class="outfit-creator__container gap-10">
