@@ -6924,7 +6924,7 @@ tfoot td {
   width: 650px;
   height: 620px;
   position: absolute;
-  /* background: #6a5c78; */
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%)  ;
@@ -7003,8 +7003,8 @@ tfoot td {
 @media screen and (max-width: 699px) {
 
   .outfit-creator__container {
-    grid-template-columns: 1fr; /* Stack elements vertically */
-    justify-content: center; /* Center child items horizontally */
+    grid-template-columns: 1fr; 
+    justify-content: center; 
   }
 
   .outfit-collection__header {
