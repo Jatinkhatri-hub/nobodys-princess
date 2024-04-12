@@ -6882,7 +6882,6 @@ tfoot td {
   align-items: center;
   justify-content: center;
   position: absolute;
-  z-index: 2;
 }
 
 .overlay {
@@ -6899,7 +6898,7 @@ tfoot td {
 .popup {
   width: 650px;
   height: 620px;
-  position: relative;
+  position: absolute;
   /* background: #6a5c78; */
   top: 50%;
   left: 50%;
