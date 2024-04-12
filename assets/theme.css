@@ -6878,10 +6878,10 @@ tfoot td {
 .popup-container {
   width: 100%;
   height: 100vh;
-
   display: flex;
   align-items: center;
-  justify-content: center;z
+  justify-content: center;
+  background-color: ;
 }
 
 .popup {
