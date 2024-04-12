@@ -6744,7 +6744,8 @@ tfoot td {
   margin-right: 0.5rem;
   position: relative;
   display: flex;
-  flex-direction: ;
+  flex-direction: row;
+
 
 }
 
@@ -6759,7 +6760,7 @@ tfoot td {
   font-size: 1rem;
   color: #5c5c5c;
   padding: 0.2em 0.25rem;
-  border: 1px solid #5c5c5c;
+  /* border: 1px solid #5c5c5c; */
   border-radius: 0.25rem;
   cursor: pointer;
   background: #fff;
