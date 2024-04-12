@@ -6882,6 +6882,7 @@ tfoot td {
   align-items: center;
   justify-content: center;
   background-color: transparent;
+  position: absolute;
 }
 
 .popup {
