@@ -6746,6 +6746,7 @@ tfoot td {
   display: flex;
   flex-direction: row;
   border: 1px solid #5c5c5c;
+  padding: 0.2em 
 }
 
 .select-option {
