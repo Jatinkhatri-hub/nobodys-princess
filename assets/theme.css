@@ -6903,7 +6903,7 @@ tfoot td {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
