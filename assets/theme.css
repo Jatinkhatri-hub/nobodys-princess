@@ -6743,16 +6743,11 @@ tfoot td {
   width: 150px;
   margin-right: 0.5rem;
   position: relative;
+  display: flex;
+  
 
 }
 
-.dropdown-container::before,
-.dropdown-container::after {
-  --size: 0.3rem;
-  position: absolute;
-  content: '';
-  right: 1rem;
-}
 
 
 
