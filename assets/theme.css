@@ -6750,7 +6750,8 @@ tfoot td {
 
 
 .select-arrow {
-  posit;
+  position: absolute;
+  ri
 }
 
 
