@@ -6904,7 +6904,9 @@ tfoot td {
   align-items: center;
   justify-content: center;
   position: relative;
-  display
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay {
