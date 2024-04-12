@@ -6750,7 +6750,8 @@ tfoot td {
 .dropdown-container::after {
   --size: 0.3rem;
   position: absolute;
-  content: ;
+  content: '';
+  right: 1rem;
 }
 
 
