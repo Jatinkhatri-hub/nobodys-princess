@@ -6908,7 +6908,8 @@ tfoot td {
   visibility: visible;
   transition: transform 0.4s, top 0.4s;
   z-index: 3;
-  mar
+  justify-self: center;
+  align-self: ;
 }
 
 
