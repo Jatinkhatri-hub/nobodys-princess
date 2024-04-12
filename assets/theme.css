@@ -6898,7 +6898,7 @@ tfoot td {
 .popup {
   width: 650px;
   height: 620px;
-  position: absolute;
+  position: relative;
   /* background: #6a5c78; */
   top: 50%;
   left: 50%;
