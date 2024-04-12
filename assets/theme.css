@@ -6797,7 +6797,6 @@ tfoot td {
   display: flex;
   justify-content: center;
   align-items: center;
-  object-fit: contain;
 }
 
 .outfit-card__image-wrapper img {
