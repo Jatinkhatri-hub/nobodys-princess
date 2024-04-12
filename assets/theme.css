@@ -7038,7 +7038,7 @@ tfoot td {
 
 
   .popup {
-    width: 300px;
+    width: 350px;
     padding: 2rem;
     height: 400px;
   }
@@ -7048,7 +7048,7 @@ tfoot td {
   }
 
   .popup-btn__group button {
-    width: 250px;
+    width: 350px;
     height: 40px;
     font-size: 0.8rem;
   }
