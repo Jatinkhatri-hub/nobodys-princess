@@ -6709,7 +6709,7 @@ tfoot td {
   grid-template-columns: minmax(0, 1fr);
   margin: auto;
   max-width: 1360px;
-  pos
+  position: relative;
 }
 
 
@@ -7044,7 +7044,7 @@ tfoot td {
   }
 
   .popup-product__img {
-    width: 120px;
+    width: 90px;
   }
 
   .popup-btn__group button {
