@@ -18,7 +18,7 @@
           <div class="product-categories__container">
             {%- if section.blocks.size > 0 -%}
               {%- for block in section.blocks -%}
-                {%- assign collection = block.settings.product -%}
+                {%- assign product = block.settings.product -%}
                 
 
                 {%- capture accordion_content -%}
