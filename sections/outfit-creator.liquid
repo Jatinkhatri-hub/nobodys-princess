@@ -25,10 +25,8 @@
                   <product-list class="product-list  product-card-size {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center gap-4">
                     {%- for i in (1..5) -%}
                       {%- render 'ourfit-creator-product-card', product: product, block: block -%}
-                    {%- else -%}
-                    {%- for i in (1..5) -%}
-                      {%- render 'outfit-creator-placeholder-card',loop_index: forloop.index0 -%}
-                    {%- endfor -%}
+                    
+                    
                     {%- endfor -%}
                   </product-list>
                 {%- endcapture -%}
