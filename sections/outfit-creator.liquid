@@ -23,11 +23,11 @@
 
                 {%- capture accordion_content -%}
                   <product-list class="product-list  product-card-size {% if section.settings.hide_product_information %}product-list--compact{% endif %} justify-center gap-4">
-                    {%- for i in (1..5) -%}
-                      {%- render 'ourfit-creator-product-card', product: product, block: block -%}
+                    
+                    {%- render 'ourfit-creator-product-card', product: product, block: block -%}
                     
                     
-                    {%- endfor -%}
+    
                   </product-list>
                 {%- endcapture -%}
                 {%- render 'accordion'
