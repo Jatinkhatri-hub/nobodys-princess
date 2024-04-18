@@ -6773,6 +6773,7 @@ tfoot td {
   cursor: pointer;
   background-color: transparent;
   z-index: 1;
+  outline: 0;
   
 }
 
