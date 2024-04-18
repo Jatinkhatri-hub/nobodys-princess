@@ -1,7 +1,8 @@
 <line-item class="line-item align-start">
-    {% if image != blank and image.src != blank %}
+    {% comment %} {% if image != blank and image.src != blank %}
         {{ image | image_url: width: image.width |  image_tag: loading: 'lazy', sizes: '(max-width: 699px) 70px, 120px', widths: '70, 120, 140, 210, 240, 360', class: 'line-item__media' }}
-    {% endif %} 
+    {% endif %}  {% endcomment %}
+    <img src="">
     <div class="line-item-info__container">
     <div class="line-item-info">
         <div class="v-stack justify-items-start gap2">
