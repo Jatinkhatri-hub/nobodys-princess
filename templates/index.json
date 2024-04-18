@@ -576,26 +576,6 @@
     },
     "outfit_creator_VFaxr4": {
       "type": "outfit-creator",
-      "blocks": {
-        "collection_dGFfma": {
-          "type": "collection",
-          "settings": {
-            "collection": "automated-collection",
-            "collection_heading": "Collection Category"
-          }
-        },
-        "collection_rF7hJH": {
-          "type": "collection",
-          "settings": {
-            "collection": "automated-collection",
-            "collection_heading": "Collection Category"
-          }
-        }
-      },
-      "block_order": [
-        "collection_dGFfma",
-        "collection_rF7hJH"
-      ],
       "settings": {
         "color_scheme": "",
         "seperate_section_with_border": true,
@@ -604,6 +584,8 @@
         "title": "Outfit creator",
         "content": "",
         "image": "shopify:\/\/shop_images\/Model_1100px.webp",
+        "product_image": "shopify:\/\/shop_images\/image_20.png",
+        "product_image_two": "shopify:\/\/shop_images\/image_3_1.png",
         "backgroundOne": "",
         "backgroundTwo": ""
       }
