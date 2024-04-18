@@ -6742,6 +6742,8 @@ tfoot td {
 }
 
 .outfit-line-item__image {
+  width: 120px;
+  height: 180px;
   
 }
 
