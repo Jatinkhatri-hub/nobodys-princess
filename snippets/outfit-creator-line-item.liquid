@@ -2,7 +2,7 @@
     {% comment %} {% if image != blank and image.src != blank %}
         {{ image | image_url: width: image.width |  image_tag: loading: 'lazy', sizes: '(max-width: 699px) 70px, 120px', widths: '70, 120, 140, 210, 240, 360', class: 'line-item__media' }}
     {% endif %}  {% endcomment %}
-    <img src="../assets/pants.png" alt="top" class="">
+    <img src="../assets/pants.png" alt="top" class="outfit-line-item__image">
     <div class="line-item-info__container">
     <div class="line-item-info">
         <div class="v-stack justify-items-start gap2">
