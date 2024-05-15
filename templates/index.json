@@ -576,6 +576,34 @@
     },
     "outfit_creator_VFaxr4": {
       "type": "outfit-creator",
+      "blocks": {
+        "product_gJtGtr": {
+          "type": "product",
+          "settings": {
+            "product": "aqua",
+            "product_heading": "Product Category"
+          }
+        },
+        "product_4UXMXe": {
+          "type": "product",
+          "settings": {
+            "product": "aqua",
+            "product_heading": "Product Category"
+          }
+        },
+        "product_iwMeVQ": {
+          "type": "product",
+          "settings": {
+            "product": "aqua",
+            "product_heading": "Product Category"
+          }
+        }
+      },
+      "block_order": [
+        "product_gJtGtr",
+        "product_4UXMXe",
+        "product_iwMeVQ"
+      ],
       "settings": {
         "color_scheme": "",
         "seperate_section_with_border": true,
