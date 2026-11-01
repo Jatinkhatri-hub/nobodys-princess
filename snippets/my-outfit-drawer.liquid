@@ -7,7 +7,7 @@
 
    
    <div class="cart-drawer__items">
-      {% render 'outfit-creator-line-item', image: {{ product_image }} %}
+      {% render 'outfit-creator-line-item', image: nil %}
    </div>
 
    <form  method="POST" class="cart-drawer__footer" slot="footer">
@@ -16,4 +16,13 @@
       </div>
     </form>
 
-</cart-drawer>
+</cart-drawer>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'outfit-creator-line-item', image: {{ product_image }} %}"
+  to: "{% render 'outfit-creator-line-item', image: nil %}"
+  position: 382..433
+{%- endcomment -%}
